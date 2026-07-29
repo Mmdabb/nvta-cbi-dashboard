@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "corridors": 70,
+  "staged_reports": 70,
+  "corridors_fully_mapped": 50,
+  "corridors_partially_mapped": 20,
+  "missing_tmc_geometry": 58,
+  "missing_report_corridors": [],
+  "sources": {
+    "corridor_results": "outputs/cbi/cbi-2026-07-28-19-31/corridors",
+    "tmc_mapmatching": "outputs/tmc-mapmatching/tmc-mapmatching-2026-07-29-12-58/nvta_ritis_dtalite_run_07162026_am_pm",
+    "qvdf_reports": "outputs/cbi/cbi-2026-07-28-19-31/dashboards/qvdf-projection",
+    "ritis_15min": "input-data/shared/ritis/NOVA-Oct1-31-2025--Avg-at-15min-.csv"
+  },
+  "entrypoint": "index.html"
+}

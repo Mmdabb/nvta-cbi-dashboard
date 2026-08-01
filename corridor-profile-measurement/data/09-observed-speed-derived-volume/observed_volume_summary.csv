@@ -1,4 +1,3 @@
-period,start_min,end_min,profile_interval_minutes,expected_intervals_per_link,source_link_performance_rows,enriched_link_performance_rows,source_link_count,observed_derived_link_count,observed_derived_link_coverage_pct,observed_derived_profile_rows,observed_derived_period_volume,minimum_interval_volume,maximum_interval_volume,reconciliation_status
-AM,360,540,15,12,49329,49329,49329,3334,6.758702,39051,24422036.659025,89.261822,5265.162331,PASS
-MD,540,900,15,24,49336,49336,49336,3334,6.757743,79119,48015339.814696,91.215443,5060.561928,PASS
-PM,900,1140,15,16,49329,49329,49329,3334,6.758702,52453,32988590.802303,89.265943,4828.604613,PASS
+version https://git-lfs.github.com/spec/v1
+oid sha256:ca2a74405c3210d65426dcdd8d98e631df484cff31ec7c2e36dcffa2a5895e8a
+size 649

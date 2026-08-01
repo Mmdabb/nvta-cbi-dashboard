@@ -2,15 +2,42 @@
   "status": "PASS",
   "corridors": 70,
   "staged_reports": 70,
+  "projection_data_files": 9,
+  "projection_summary_figures": 2,
   "corridors_fully_mapped": 50,
   "corridors_partially_mapped": 20,
   "missing_tmc_geometry": 58,
   "missing_report_corridors": [],
   "sources": {
-    "corridor_results": "outputs/cbi/cbi-2026-07-28-19-31/corridors",
+    "corridor_results": "outputs/cbi/cbi-2026-07-31-10-51/corridors",
     "tmc_mapmatching": "outputs/tmc-mapmatching/tmc-mapmatching-2026-07-29-12-58/nvta_ritis_dtalite_run_07162026_am_pm",
-    "qvdf_reports": "outputs/cbi/cbi-2026-07-28-19-31/dashboards/qvdf-projection",
+    "qvdf_reports": "outputs/cbi/cbi-2026-07-31-10-51/dashboards/integrated-corridor/data",
     "ritis_15min": "input-data/shared/ritis/NOVA-Oct1-31-2025--Avg-at-15min-.csv"
   },
-  "entrypoint": "index.html"
+  "entrypoint": "index.html",
+  "projection": {
+    "selected_link_periods": 6219,
+    "ready_link_periods": 6045,
+    "selected_tmc_periods": 6219,
+    "ready_tmc_periods": 6045,
+    "assignment_root": "C:\\Users\\mabbas10\\Projects\\CBI-NVTA\\NVTA_internal\\nvta-cbi-package\\outputs\\nvta-taplite-workflow\\nvta-taplite-workflow-2026-07-30-21-25\\assignment",
+    "model_link_map": "C:\\Users\\mabbas10\\Projects\\CBI-NVTA\\NVTA_internal\\nvta-cbi-package\\outputs\\cbi\\cbi-2026-07-31-10-51\\shared\\network-mapping\\canonical_tmc_link_pairs.csv",
+    "worker_plan": {
+      "logical_cores": 40,
+      "free_core_equivalents": 36.36,
+      "target_fraction": 0.7,
+      "workers": 20,
+      "task_count": 70,
+      "measurement": "explicit_override_after_windows_GetSystemTimes",
+      "sample_seconds": 0.25
+    }
+  },
+  "corridor_profile_measurement": {
+    "page": "corridor-profile-measurement/index.html",
+    "corridors": 70,
+    "figure_assets": 350,
+    "data_downloads": 8,
+    "download_bundle": "corridor-profile-measurement/downloads/corridor-profile-measurement-data.zip",
+    "source": "outputs/corridor-profile-measurement/corridor-profile-measurement-2026-07-31-16-38"
+  }
 }

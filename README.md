@@ -6,7 +6,7 @@ corridor dashboard.
 **Live dashboard:** <https://mmdabb.github.io/nvta-cbi-dashboard/>
 
 The current publication contains 70 corridor reports generated from the
-approved CBI run `cbi-2026-07-28-19-31`.
+latest completed CBI run, currently `cbi-2026-07-31-10-51`.
 
 ## Published contents
 
@@ -14,8 +14,13 @@ approved CBI run `cbi-2026-07-28-19-31`.
 - Corridor performance statistics
 - Projection figures
 - Daily speed, volume, and model-comparison figures
+- A separate corridor profile measurement page with downloadable results
 - One embedded report page for each corridor
 
 This repository contains published dashboard artifacts only. The processing
 source code, input datasets, intermediate files, and full run outputs remain in
 the private NVTA project repository.
+
+GitHub Actions deploys every commit to `main` to GitHub Pages. A companion
+workflow in `NVTA_internal` synchronizes the latest completed integrated
+dashboard into this repository whenever its `main` branch changes.

@@ -8,7 +8,7 @@
     "mapped_tmc": 2015,
     "mapping_share_pct": 97.2,
     "missing_tmc": 58,
-    "qvdf_ready_corridors": 59
+    "qvdf_ready_corridors": 70
   },
   "bounds": [
     [
@@ -381,51 +381,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.7,
         "episodes_detected": 585,
-        "episodes_clean": 310,
-        "calibration_rows": 40,
-        "average_weekday_calibration_rows": 8,
-        "figures": 22
+        "episodes_clean": 271,
+        "calibration_rows": 34,
+        "average_weekday_calibration_rows": 5,
+        "figures": 23
       },
       "quality": [
         {
           "period": "AM",
           "n_links": 3,
-          "duration_r2": 0.865,
-          "speed_r2": -0.002,
-          "duration_mape_pct": 2.5,
-          "minimum_speed_mape_pct": 20.7,
-          "t0_mae_min": 5,
-          "gates_pass": "5/7"
+          "duration_r2": 0.993,
+          "speed_r2": 0.878,
+          "duration_mape_pct": 2.7,
+          "minimum_speed_mape_pct": 15.2,
+          "t0_mae_min": 5.5,
+          "gates_pass": "6/7"
         },
         {
           "period": "MD",
-          "n_links": 13,
-          "duration_r2": 0.998,
-          "speed_r2": 0.716,
-          "duration_mape_pct": 1.5,
-          "minimum_speed_mape_pct": 7.3,
-          "t0_mae_min": 4,
+          "n_links": 7,
+          "duration_r2": 0.994,
+          "speed_r2": 0.705,
+          "duration_mape_pct": 1.6,
+          "minimum_speed_mape_pct": 5.7,
+          "t0_mae_min": 4.8,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
           "n_links": 24,
           "duration_r2": 0.992,
-          "speed_r2": 0.656,
+          "speed_r2": 0.648,
           "duration_mape_pct": 1.8,
-          "minimum_speed_mape_pct": 8.6,
+          "minimum_speed_mape_pct": 8.8,
           "t0_mae_min": 7.3,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 8,
-        "daily_accepted_episodes": 310,
-        "calibrated_link_periods": 40,
-        "selected_link_periods": 11,
-        "ready_link_periods": 11,
-        "assignment_links": 11
+        "average_accepted_episodes": 6,
+        "daily_accepted_episodes": 271,
+        "calibrated_link_periods": 34,
+        "selected_link_periods": 81,
+        "ready_link_periods": 81,
+        "assignment_links": 21
       },
       "report_url": "reports/corridors/I395HOV_NB/index.html"
     },
@@ -789,41 +789,41 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.9,
         "episodes_detected": 213,
-        "episodes_clean": 71,
-        "calibration_rows": 19,
+        "episodes_clean": 74,
+        "calibration_rows": 20,
         "average_weekday_calibration_rows": 0,
         "figures": 16
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 5,
-          "duration_r2": 0.996,
-          "speed_r2": 0.951,
-          "duration_mape_pct": 1,
-          "minimum_speed_mape_pct": 1.5,
-          "t0_mae_min": 3.7,
+          "n_links": 6,
+          "duration_r2": 0.995,
+          "speed_r2": 0.913,
+          "duration_mape_pct": 1.1,
+          "minimum_speed_mape_pct": 2,
+          "t0_mae_min": 4,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
           "n_links": 14,
-          "duration_r2": 0.972,
-          "speed_r2": 0.437,
+          "duration_r2": 0.99,
+          "speed_r2": 0.277,
           "duration_mape_pct": 1.6,
-          "minimum_speed_mape_pct": 6.8,
-          "t0_mae_min": 4.5,
-          "gates_pass": "7/7"
+          "minimum_speed_mape_pct": 7.9,
+          "t0_mae_min": 4.7,
+          "gates_pass": "6/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
         "average_accepted_episodes": 1,
-        "daily_accepted_episodes": 71,
-        "calibrated_link_periods": 19,
-        "selected_link_periods": 1,
-        "ready_link_periods": 1,
-        "assignment_links": 1
+        "daily_accepted_episodes": 74,
+        "calibrated_link_periods": 20,
+        "selected_link_periods": 81,
+        "ready_link_periods": 81,
+        "assignment_links": 21
       },
       "report_url": "reports/corridors/I395HOV_SB/index.html"
     },
@@ -1178,8 +1178,8 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.5,
         "episodes_detected": 677,
-        "episodes_clean": 439,
-        "calibration_rows": 55,
+        "episodes_clean": 449,
+        "calibration_rows": 56,
         "average_weekday_calibration_rows": 21,
         "figures": 24
       },
@@ -1196,12 +1196,12 @@
         },
         {
           "period": "MD",
-          "n_links": 12,
-          "duration_r2": 0.971,
-          "speed_r2": 0.576,
-          "duration_mape_pct": 5.9,
-          "minimum_speed_mape_pct": 17.9,
-          "t0_mae_min": 12.7,
+          "n_links": 13,
+          "duration_r2": 0.981,
+          "speed_r2": 0.741,
+          "duration_mape_pct": 4.7,
+          "minimum_speed_mape_pct": 12.4,
+          "t0_mae_min": 12.1,
           "gates_pass": "7/7"
         },
         {
@@ -1218,11 +1218,11 @@
       "qvdf": {
         "coverage_status": "ready",
         "average_accepted_episodes": 21,
-        "daily_accepted_episodes": 439,
-        "calibrated_link_periods": 55,
-        "selected_link_periods": 28,
-        "ready_link_periods": 28,
-        "assignment_links": 16
+        "daily_accepted_episodes": 449,
+        "calibrated_link_periods": 56,
+        "selected_link_periods": 69,
+        "ready_link_periods": 69,
+        "assignment_links": 21
       },
       "report_url": "reports/corridors/I395_NB/index.html"
     },
@@ -1606,41 +1606,41 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.8,
         "episodes_detected": 319,
-        "episodes_clean": 208,
-        "calibration_rows": 26,
+        "episodes_clean": 205,
+        "calibration_rows": 23,
         "average_weekday_calibration_rows": 10,
         "figures": 17
       },
       "quality": [
         {
           "period": "MD",
-          "n_links": 9,
-          "duration_r2": 0.972,
-          "speed_r2": 0.271,
-          "duration_mape_pct": 5.7,
-          "minimum_speed_mape_pct": 16.2,
-          "t0_mae_min": 5.9,
+          "n_links": 6,
+          "duration_r2": 0.689,
+          "speed_r2": 0.006,
+          "duration_mape_pct": 3.8,
+          "minimum_speed_mape_pct": 18.3,
+          "t0_mae_min": 4.8,
           "gates_pass": "6/7"
         },
         {
           "period": "PM",
           "n_links": 17,
-          "duration_r2": 0.93,
-          "speed_r2": 0.205,
-          "duration_mape_pct": 5.3,
-          "minimum_speed_mape_pct": 27.5,
-          "t0_mae_min": 7.8,
+          "duration_r2": 0.929,
+          "speed_r2": 0.223,
+          "duration_mape_pct": 5.2,
+          "minimum_speed_mape_pct": 27,
+          "t0_mae_min": 7.9,
           "gates_pass": "6/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
         "average_accepted_episodes": 10,
-        "daily_accepted_episodes": 208,
-        "calibrated_link_periods": 26,
-        "selected_link_periods": 19,
-        "ready_link_periods": 19,
-        "assignment_links": 19
+        "daily_accepted_episodes": 205,
+        "calibrated_link_periods": 23,
+        "selected_link_periods": 69,
+        "ready_link_periods": 69,
+        "assignment_links": 21
       },
       "report_url": "reports/corridors/I395_SB/index.html"
     },
@@ -2183,7 +2183,7 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.2,
         "episodes_detected": 695,
-        "episodes_clean": 453,
+        "episodes_clean": 469,
         "calibration_rows": 60,
         "average_weekday_calibration_rows": 19,
         "figures": 19
@@ -2202,32 +2202,32 @@
         {
           "period": "MD",
           "n_links": 17,
-          "duration_r2": 0.962,
-          "speed_r2": 0.037,
-          "duration_mape_pct": 8.4,
-          "minimum_speed_mape_pct": 32.7,
-          "t0_mae_min": 9,
-          "gates_pass": "5/7"
+          "duration_r2": 0.988,
+          "speed_r2": 0.166,
+          "duration_mape_pct": 7,
+          "minimum_speed_mape_pct": 26.9,
+          "t0_mae_min": 9.9,
+          "gates_pass": "6/7"
         },
         {
           "period": "PM",
           "n_links": 30,
-          "duration_r2": 0.957,
-          "speed_r2": 0.779,
+          "duration_r2": 0.958,
+          "speed_r2": 0.778,
           "duration_mape_pct": 4.5,
           "minimum_speed_mape_pct": 12,
-          "t0_mae_min": 10,
+          "t0_mae_min": 10.1,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
         "average_accepted_episodes": 19,
-        "daily_accepted_episodes": 453,
+        "daily_accepted_episodes": 469,
         "calibrated_link_periods": 60,
-        "selected_link_periods": 31,
-        "ready_link_periods": 31,
-        "assignment_links": 31
+        "selected_link_periods": 93,
+        "ready_link_periods": 93,
+        "assignment_links": 30
       },
       "report_url": "reports/corridors/I495_CCW/index.html"
     },
@@ -2769,10 +2769,10 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.2,
         "episodes_detected": 691,
-        "episodes_clean": 380,
-        "calibration_rows": 59,
-        "average_weekday_calibration_rows": 13,
-        "figures": 26
+        "episodes_clean": 401,
+        "calibration_rows": 58,
+        "average_weekday_calibration_rows": 16,
+        "figures": 27
       },
       "quality": [
         {
@@ -2789,31 +2789,31 @@
           "period": "MD",
           "n_links": 23,
           "duration_r2": 0.973,
-          "speed_r2": 0.714,
-          "duration_mape_pct": 6.3,
-          "minimum_speed_mape_pct": 19.1,
-          "t0_mae_min": 11.9,
+          "speed_r2": 0.728,
+          "duration_mape_pct": 6.1,
+          "minimum_speed_mape_pct": 20,
+          "t0_mae_min": 12.2,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 18,
-          "duration_r2": 0.974,
-          "speed_r2": 0.647,
-          "duration_mape_pct": 4.7,
-          "minimum_speed_mape_pct": 16.3,
-          "t0_mae_min": 11,
+          "n_links": 17,
+          "duration_r2": 0.964,
+          "speed_r2": 0.757,
+          "duration_mape_pct": 5.2,
+          "minimum_speed_mape_pct": 13.7,
+          "t0_mae_min": 14.6,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 15,
-        "daily_accepted_episodes": 380,
-        "calibrated_link_periods": 59,
-        "selected_link_periods": 23,
-        "ready_link_periods": 23,
-        "assignment_links": 22
+        "average_accepted_episodes": 16,
+        "daily_accepted_episodes": 401,
+        "calibrated_link_periods": 58,
+        "selected_link_periods": 93,
+        "ready_link_periods": 93,
+        "assignment_links": 31
       },
       "report_url": "reports/corridors/I495_CW/index.html"
     },
@@ -3156,10 +3156,10 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.8,
         "episodes_detected": 172,
-        "episodes_clean": 40,
+        "episodes_clean": 53,
         "calibration_rows": 13,
         "average_weekday_calibration_rows": 0,
-        "figures": 24
+        "figures": 25
       },
       "quality": [
         {
@@ -3175,32 +3175,32 @@
         {
           "period": "MD",
           "n_links": 5,
-          "duration_r2": 1,
-          "speed_r2": 0.991,
-          "duration_mape_pct": 1.7,
-          "minimum_speed_mape_pct": 7.8,
-          "t0_mae_min": 6.4,
+          "duration_r2": 0.999,
+          "speed_r2": 0.95,
+          "duration_mape_pct": 2.2,
+          "minimum_speed_mape_pct": 17.8,
+          "t0_mae_min": 5.2,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
           "n_links": 5,
-          "duration_r2": 0.947,
-          "speed_r2": 0.779,
-          "duration_mape_pct": 7.5,
-          "minimum_speed_mape_pct": 19.3,
-          "t0_mae_min": 21.7,
+          "duration_r2": 0.952,
+          "speed_r2": 0.782,
+          "duration_mape_pct": 7.2,
+          "minimum_speed_mape_pct": 17.2,
+          "t0_mae_min": 26.9,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 2,
-        "daily_accepted_episodes": 40,
+        "average_accepted_episodes": 3,
+        "daily_accepted_episodes": 53,
         "calibrated_link_periods": 13,
-        "selected_link_periods": 2,
-        "ready_link_periods": 2,
-        "assignment_links": 1
+        "selected_link_periods": 51,
+        "ready_link_periods": 51,
+        "assignment_links": 17
       },
       "report_url": "reports/corridors/I495_NB/index.html"
     },
@@ -3560,13 +3560,13 @@
       },
       "quality": [],
       "qvdf": {
-        "coverage_status": "no_accepted_average_episode",
+        "coverage_status": "ready",
         "average_accepted_episodes": 0,
         "daily_accepted_episodes": 0,
         "calibrated_link_periods": 0,
-        "selected_link_periods": 0,
-        "ready_link_periods": 0,
-        "assignment_links": 0
+        "selected_link_periods": 51,
+        "ready_link_periods": 51,
+        "assignment_links": 16
       },
       "report_url": "reports/corridors/I495_SB/index.html"
     },
@@ -4562,8 +4562,8 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.6,
         "episodes_detected": 1356,
-        "episodes_clean": 703,
-        "calibration_rows": 92,
+        "episodes_clean": 713,
+        "calibration_rows": 91,
         "average_weekday_calibration_rows": 29,
         "figures": 25
       },
@@ -4580,33 +4580,33 @@
         },
         {
           "period": "MD",
-          "n_links": 28,
-          "duration_r2": 0.986,
-          "speed_r2": 0.137,
-          "duration_mape_pct": 3.1,
-          "minimum_speed_mape_pct": 25,
+          "n_links": 27,
+          "duration_r2": 0.991,
+          "speed_r2": 0.164,
+          "duration_mape_pct": 2.9,
+          "minimum_speed_mape_pct": 23.7,
           "t0_mae_min": 5.9,
           "gates_pass": "6/7"
         },
         {
           "period": "PM",
           "n_links": 41,
-          "duration_r2": 0.976,
-          "speed_r2": 0.711,
+          "duration_r2": 0.978,
+          "speed_r2": 0.677,
           "duration_mape_pct": 4.5,
-          "minimum_speed_mape_pct": 11.6,
-          "t0_mae_min": 9.1,
+          "minimum_speed_mape_pct": 12.2,
+          "t0_mae_min": 9.4,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
         "average_accepted_episodes": 31,
-        "daily_accepted_episodes": 703,
-        "calibrated_link_periods": 92,
-        "selected_link_periods": 41,
-        "ready_link_periods": 41,
-        "assignment_links": 39
+        "daily_accepted_episodes": 713,
+        "calibrated_link_periods": 91,
+        "selected_link_periods": 222,
+        "ready_link_periods": 222,
+        "assignment_links": 61
       },
       "report_url": "reports/corridors/I66_EB/index.html"
     },
@@ -5552,7 +5552,7 @@
         "raw_qc_pass_pct": 98.6,
         "episodes_detected": 743,
         "episodes_clean": 445,
-        "calibration_rows": 55,
+        "calibration_rows": 54,
         "average_weekday_calibration_rows": 19,
         "figures": 26
       },
@@ -5570,21 +5570,21 @@
         {
           "period": "MD",
           "n_links": 23,
-          "duration_r2": 0.974,
-          "speed_r2": 0.245,
-          "duration_mape_pct": 3.5,
-          "minimum_speed_mape_pct": 15.4,
+          "duration_r2": 0.975,
+          "speed_r2": 0.534,
+          "duration_mape_pct": 3.3,
+          "minimum_speed_mape_pct": 11.7,
           "t0_mae_min": 7.4,
-          "gates_pass": "6/7"
+          "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 20,
-          "duration_r2": 0.972,
-          "speed_r2": 0.62,
+          "n_links": 19,
+          "duration_r2": 0.973,
+          "speed_r2": 0.698,
           "duration_mape_pct": 3.6,
-          "minimum_speed_mape_pct": 13.9,
-          "t0_mae_min": 11.3,
+          "minimum_speed_mape_pct": 13,
+          "t0_mae_min": 11.4,
           "gates_pass": "7/7"
         }
       ],
@@ -5592,10 +5592,10 @@
         "coverage_status": "ready",
         "average_accepted_episodes": 20,
         "daily_accepted_episodes": 445,
-        "calibrated_link_periods": 55,
-        "selected_link_periods": 33,
-        "ready_link_periods": 33,
-        "assignment_links": 33
+        "calibrated_link_periods": 54,
+        "selected_link_periods": 222,
+        "ready_link_periods": 222,
+        "assignment_links": 58
       },
       "report_url": "reports/corridors/I66_WB/index.html"
     },
@@ -6048,41 +6048,41 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.6,
         "episodes_detected": 589,
-        "episodes_clean": 329,
-        "calibration_rows": 46,
-        "average_weekday_calibration_rows": 11,
-        "figures": 20
+        "episodes_clean": 410,
+        "calibration_rows": 47,
+        "average_weekday_calibration_rows": 12,
+        "figures": 21
       },
       "quality": [
         {
           "period": "MD",
-          "n_links": 22,
+          "n_links": 23,
           "duration_r2": 0.993,
-          "speed_r2": 0.698,
-          "duration_mape_pct": 2.1,
-          "minimum_speed_mape_pct": 6.8,
-          "t0_mae_min": 4.8,
+          "speed_r2": 0.66,
+          "duration_mape_pct": 2.6,
+          "minimum_speed_mape_pct": 9,
+          "t0_mae_min": 4.9,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
           "n_links": 24,
-          "duration_r2": 0.992,
-          "speed_r2": 0.656,
-          "duration_mape_pct": 2,
-          "minimum_speed_mape_pct": 8.5,
-          "t0_mae_min": 7.6,
+          "duration_r2": 0.993,
+          "speed_r2": 0.608,
+          "duration_mape_pct": 2.4,
+          "minimum_speed_mape_pct": 10.3,
+          "t0_mae_min": 8.2,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 13,
-        "daily_accepted_episodes": 329,
-        "calibrated_link_periods": 46,
-        "selected_link_periods": 28,
-        "ready_link_periods": 28,
-        "assignment_links": 28
+        "average_accepted_episodes": 14,
+        "daily_accepted_episodes": 410,
+        "calibrated_link_periods": 47,
+        "selected_link_periods": 72,
+        "ready_link_periods": 72,
+        "assignment_links": 20
       },
       "report_url": "reports/corridors/I95HOV_NB/index.html"
     },
@@ -6506,8 +6506,8 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.6,
         "episodes_detected": 225,
-        "episodes_clean": 113,
-        "calibration_rows": 29,
+        "episodes_clean": 109,
+        "calibration_rows": 28,
         "average_weekday_calibration_rows": 0,
         "figures": 18
       },
@@ -6524,11 +6524,11 @@
         },
         {
           "period": "MD",
-          "n_links": 19,
-          "duration_r2": 0.973,
-          "speed_r2": 0.468,
+          "n_links": 18,
+          "duration_r2": 0.974,
+          "speed_r2": 0.722,
           "duration_mape_pct": 3.8,
-          "minimum_speed_mape_pct": 7,
+          "minimum_speed_mape_pct": 4.9,
           "t0_mae_min": 5,
           "gates_pass": "7/7"
         }
@@ -6536,11 +6536,11 @@
       "qvdf": {
         "coverage_status": "ready",
         "average_accepted_episodes": 2,
-        "daily_accepted_episodes": 113,
-        "calibrated_link_periods": 29,
-        "selected_link_periods": 6,
-        "ready_link_periods": 6,
-        "assignment_links": 6
+        "daily_accepted_episodes": 109,
+        "calibrated_link_periods": 28,
+        "selected_link_periods": 72,
+        "ready_link_periods": 72,
+        "assignment_links": 19
       },
       "report_url": "reports/corridors/I95HOV_SB/index.html"
     },
@@ -6933,51 +6933,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.4,
         "episodes_detected": 724,
-        "episodes_clean": 409,
-        "calibration_rows": 65,
+        "episodes_clean": 434,
+        "calibration_rows": 66,
         "average_weekday_calibration_rows": 23,
         "figures": 25
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 21,
-          "duration_r2": 0.967,
-          "speed_r2": 0.167,
-          "duration_mape_pct": 4.4,
-          "minimum_speed_mape_pct": 23.6,
+          "n_links": 22,
+          "duration_r2": 0.966,
+          "speed_r2": 0.144,
+          "duration_mape_pct": 4.6,
+          "minimum_speed_mape_pct": 25.2,
           "t0_mae_min": 7.1,
           "gates_pass": "6/7"
         },
         {
           "period": "MD",
           "n_links": 22,
-          "duration_r2": 0.977,
-          "speed_r2": 0.263,
-          "duration_mape_pct": 5,
-          "minimum_speed_mape_pct": 29.2,
-          "t0_mae_min": 7.5,
-          "gates_pass": "6/7"
+          "duration_r2": 0.989,
+          "speed_r2": 0.43,
+          "duration_mape_pct": 4.8,
+          "minimum_speed_mape_pct": 23.3,
+          "t0_mae_min": 8.1,
+          "gates_pass": "7/7"
         },
         {
           "period": "PM",
           "n_links": 22,
-          "duration_r2": 0.987,
-          "speed_r2": 0.428,
-          "duration_mape_pct": 4.1,
-          "minimum_speed_mape_pct": 19.6,
-          "t0_mae_min": 9.6,
+          "duration_r2": 0.989,
+          "speed_r2": 0.435,
+          "duration_mape_pct": 4.2,
+          "minimum_speed_mape_pct": 20.7,
+          "t0_mae_min": 10,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
         "average_accepted_episodes": 23,
-        "daily_accepted_episodes": 409,
-        "calibrated_link_periods": 65,
-        "selected_link_periods": 31,
-        "ready_link_periods": 31,
-        "assignment_links": 19
+        "daily_accepted_episodes": 434,
+        "calibrated_link_periods": 66,
+        "selected_link_periods": 81,
+        "ready_link_periods": 81,
+        "assignment_links": 26
       },
       "report_url": "reports/corridors/I95_NB/index.html"
     },
@@ -7380,9 +7380,9 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.3,
         "episodes_detected": 522,
-        "episodes_clean": 313,
+        "episodes_clean": 326,
         "calibration_rows": 51,
-        "average_weekday_calibration_rows": 13,
+        "average_weekday_calibration_rows": 14,
         "figures": 21
       },
       "quality": [
@@ -7399,32 +7399,32 @@
         {
           "period": "MD",
           "n_links": 24,
-          "duration_r2": 0.966,
-          "speed_r2": 0.485,
-          "duration_mape_pct": 5.7,
-          "minimum_speed_mape_pct": 29.8,
-          "t0_mae_min": 8,
+          "duration_r2": 0.987,
+          "speed_r2": 0.516,
+          "duration_mape_pct": 4.6,
+          "minimum_speed_mape_pct": 25.1,
+          "t0_mae_min": 6.8,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
           "n_links": 23,
-          "duration_r2": 0.987,
-          "speed_r2": 0.791,
+          "duration_r2": 0.989,
+          "speed_r2": 0.817,
           "duration_mape_pct": 4.3,
-          "minimum_speed_mape_pct": 14.8,
-          "t0_mae_min": 9,
+          "minimum_speed_mape_pct": 14.5,
+          "t0_mae_min": 9.7,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 13,
-        "daily_accepted_episodes": 313,
+        "average_accepted_episodes": 14,
+        "daily_accepted_episodes": 326,
         "calibrated_link_periods": 51,
-        "selected_link_periods": 19,
-        "ready_link_periods": 19,
-        "assignment_links": 19
+        "selected_link_periods": 81,
+        "ready_link_periods": 81,
+        "assignment_links": 25
       },
       "report_url": "reports/corridors/I95_SB/index.html"
     },
@@ -7945,51 +7945,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.0,
         "episodes_detected": 380,
-        "episodes_clean": 132,
-        "calibration_rows": 28,
-        "average_weekday_calibration_rows": 0,
-        "figures": 20
+        "episodes_clean": 219,
+        "calibration_rows": 36,
+        "average_weekday_calibration_rows": 8,
+        "figures": 27
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 7,
-          "duration_r2": 0.981,
-          "speed_r2": 0.014,
-          "duration_mape_pct": 2.1,
-          "minimum_speed_mape_pct": 17.3,
-          "t0_mae_min": 5,
-          "gates_pass": "6/7"
+          "n_links": 10,
+          "duration_r2": 0.998,
+          "speed_r2": 0.438,
+          "duration_mape_pct": 1.5,
+          "minimum_speed_mape_pct": 27.3,
+          "t0_mae_min": 6.9,
+          "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 12,
-          "duration_r2": 0.975,
-          "speed_r2": 0.577,
-          "duration_mape_pct": 4.8,
-          "minimum_speed_mape_pct": 21.4,
-          "t0_mae_min": 8.5,
+          "n_links": 13,
+          "duration_r2": 0.998,
+          "speed_r2": 0.589,
+          "duration_mape_pct": 2.7,
+          "minimum_speed_mape_pct": 16,
+          "t0_mae_min": 9.2,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 9,
-          "duration_r2": 0.979,
-          "speed_r2": 0.878,
-          "duration_mape_pct": 3.5,
-          "minimum_speed_mape_pct": 8.9,
-          "t0_mae_min": 10.2,
+          "n_links": 13,
+          "duration_r2": 0.996,
+          "speed_r2": 0.839,
+          "duration_mape_pct": 3.4,
+          "minimum_speed_mape_pct": 9.3,
+          "t0_mae_min": 12.2,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 3,
-        "daily_accepted_episodes": 132,
-        "calibrated_link_periods": 28,
-        "selected_link_periods": 4,
-        "ready_link_periods": 3,
-        "assignment_links": 3
+        "average_accepted_episodes": 9,
+        "daily_accepted_episodes": 219,
+        "calibrated_link_periods": 36,
+        "selected_link_periods": 66,
+        "ready_link_periods": 63,
+        "assignment_links": 15
       },
       "report_url": "reports/corridors/US15_NB/index.html"
     },
@@ -8509,51 +8509,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.9,
         "episodes_detected": 442,
-        "episodes_clean": 164,
-        "calibration_rows": 27,
-        "average_weekday_calibration_rows": 5,
-        "figures": 22
+        "episodes_clean": 165,
+        "calibration_rows": 23,
+        "average_weekday_calibration_rows": 6,
+        "figures": 23
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 7,
-          "duration_r2": 0.972,
-          "speed_r2": 0.794,
-          "duration_mape_pct": 3.1,
-          "minimum_speed_mape_pct": 10.7,
-          "t0_mae_min": 6.5,
+          "n_links": 6,
+          "duration_r2": 0.956,
+          "speed_r2": 0.769,
+          "duration_mape_pct": 3.4,
+          "minimum_speed_mape_pct": 10.5,
+          "t0_mae_min": 7.1,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 6,
-          "duration_r2": 0.987,
-          "speed_r2": 0.982,
-          "duration_mape_pct": 2.9,
-          "minimum_speed_mape_pct": 4.2,
-          "t0_mae_min": 7.6,
-          "gates_pass": "7/7"
+          "n_links": 2,
+          "duration_r2": 0.985,
+          "speed_r2": -0.147,
+          "duration_mape_pct": 3.9,
+          "minimum_speed_mape_pct": 18.2,
+          "t0_mae_min": 10.1,
+          "gates_pass": "5/7"
         },
         {
           "period": "PM",
-          "n_links": 14,
-          "duration_r2": 0.985,
-          "speed_r2": 0.968,
+          "n_links": 15,
+          "duration_r2": 0.992,
+          "speed_r2": 0.962,
           "duration_mape_pct": 2.6,
-          "minimum_speed_mape_pct": 7,
-          "t0_mae_min": 8.1,
+          "minimum_speed_mape_pct": 7.3,
+          "t0_mae_min": 8.3,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 6,
-        "daily_accepted_episodes": 164,
-        "calibrated_link_periods": 27,
-        "selected_link_periods": 13,
-        "ready_link_periods": 13,
-        "assignment_links": 13
+        "average_accepted_episodes": 7,
+        "daily_accepted_episodes": 165,
+        "calibrated_link_periods": 23,
+        "selected_link_periods": 66,
+        "ready_link_periods": 63,
+        "assignment_links": 15
       },
       "report_url": "reports/corridors/US15_SB/index.html"
     },
@@ -9673,51 +9673,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.0,
         "episodes_detected": 1311,
-        "episodes_clean": 189,
-        "calibration_rows": 45,
-        "average_weekday_calibration_rows": 4,
-        "figures": 22
+        "episodes_clean": 800,
+        "calibration_rows": 111,
+        "average_weekday_calibration_rows": 33,
+        "figures": 25
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 20,
-          "duration_r2": 0.996,
-          "speed_r2": 0.39,
-          "duration_mape_pct": 1.5,
-          "minimum_speed_mape_pct": 11.6,
-          "t0_mae_min": 6.2,
+          "n_links": 37,
+          "duration_r2": 0.998,
+          "speed_r2": 0.816,
+          "duration_mape_pct": 1.7,
+          "minimum_speed_mape_pct": 10.9,
+          "t0_mae_min": 6.7,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 14,
+          "n_links": 38,
           "duration_r2": 0.997,
-          "speed_r2": 0.614,
-          "duration_mape_pct": 1.1,
-          "minimum_speed_mape_pct": 8.6,
-          "t0_mae_min": 5.2,
+          "speed_r2": 0.784,
+          "duration_mape_pct": 1.3,
+          "minimum_speed_mape_pct": 8,
+          "t0_mae_min": 10,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 11,
+          "n_links": 36,
           "duration_r2": 0.994,
-          "speed_r2": 0.818,
+          "speed_r2": 0.682,
           "duration_mape_pct": 1.6,
-          "minimum_speed_mape_pct": 7.8,
-          "t0_mae_min": 8.1,
+          "minimum_speed_mape_pct": 10.5,
+          "t0_mae_min": 14.1,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 6,
-        "daily_accepted_episodes": 189,
-        "calibrated_link_periods": 45,
-        "selected_link_periods": 15,
-        "ready_link_periods": 14,
-        "assignment_links": 14
+        "average_accepted_episodes": 33,
+        "daily_accepted_episodes": 800,
+        "calibrated_link_periods": 111,
+        "selected_link_periods": 156,
+        "ready_link_periods": 153,
+        "assignment_links": 44
       },
       "report_url": "reports/corridors/US1_NB/index.html"
     },
@@ -10817,51 +10817,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.1,
         "episodes_detected": 1387,
-        "episodes_clean": 203,
-        "calibration_rows": 47,
-        "average_weekday_calibration_rows": 6,
-        "figures": 25
+        "episodes_clean": 881,
+        "calibration_rows": 103,
+        "average_weekday_calibration_rows": 36,
+        "figures": 27
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 16,
-          "duration_r2": 0.994,
-          "speed_r2": 0.438,
+          "n_links": 22,
+          "duration_r2": 0.999,
+          "speed_r2": 0.577,
           "duration_mape_pct": 1.4,
-          "minimum_speed_mape_pct": 6.7,
-          "t0_mae_min": 6.7,
+          "minimum_speed_mape_pct": 6.3,
+          "t0_mae_min": 5.9,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 14,
-          "duration_r2": 0.999,
-          "speed_r2": 0.117,
-          "duration_mape_pct": 1.2,
-          "minimum_speed_mape_pct": 10.7,
-          "t0_mae_min": 6.7,
-          "gates_pass": "6/7"
+          "n_links": 39,
+          "duration_r2": 0.996,
+          "speed_r2": 0.621,
+          "duration_mape_pct": 1.3,
+          "minimum_speed_mape_pct": 9.6,
+          "t0_mae_min": 9.9,
+          "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 17,
-          "duration_r2": 0.988,
-          "speed_r2": 0.617,
-          "duration_mape_pct": 2.8,
-          "minimum_speed_mape_pct": 15.6,
-          "t0_mae_min": 10,
+          "n_links": 42,
+          "duration_r2": 0.997,
+          "speed_r2": 0.814,
+          "duration_mape_pct": 2.3,
+          "minimum_speed_mape_pct": 12.2,
+          "t0_mae_min": 15.3,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 9,
-        "daily_accepted_episodes": 203,
-        "calibrated_link_periods": 47,
-        "selected_link_periods": 18,
-        "ready_link_periods": 18,
-        "assignment_links": 17
+        "average_accepted_episodes": 36,
+        "daily_accepted_episodes": 881,
+        "calibrated_link_periods": 103,
+        "selected_link_periods": 153,
+        "ready_link_periods": 150,
+        "assignment_links": 44
       },
       "report_url": "reports/corridors/US1_SB/index.html"
     },
@@ -12107,51 +12107,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.9,
         "episodes_detected": 1921,
-        "episodes_clean": 234,
-        "calibration_rows": 54,
-        "average_weekday_calibration_rows": 0,
-        "figures": 23
+        "episodes_clean": 1138,
+        "calibration_rows": 170,
+        "average_weekday_calibration_rows": 45,
+        "figures": 27
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 21,
-          "duration_r2": 0.998,
-          "speed_r2": 0.332,
-          "duration_mape_pct": 1.2,
-          "minimum_speed_mape_pct": 9.9,
-          "t0_mae_min": 5.4,
+          "n_links": 56,
+          "duration_r2": 0.997,
+          "speed_r2": 0.663,
+          "duration_mape_pct": 1.6,
+          "minimum_speed_mape_pct": 11.4,
+          "t0_mae_min": 7.3,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 18,
-          "duration_r2": 0.998,
-          "speed_r2": 0.073,
-          "duration_mape_pct": 0.7,
-          "minimum_speed_mape_pct": 7,
-          "t0_mae_min": 6.4,
-          "gates_pass": "6/7"
+          "n_links": 57,
+          "duration_r2": 0.997,
+          "speed_r2": 0.767,
+          "duration_mape_pct": 1.4,
+          "minimum_speed_mape_pct": 8.9,
+          "t0_mae_min": 10.7,
+          "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 15,
-          "duration_r2": 0.998,
-          "speed_r2": 0.734,
-          "duration_mape_pct": 0.8,
-          "minimum_speed_mape_pct": 7.1,
-          "t0_mae_min": 6.8,
+          "n_links": 57,
+          "duration_r2": 0.996,
+          "speed_r2": 0.794,
+          "duration_mape_pct": 1.3,
+          "minimum_speed_mape_pct": 7.9,
+          "t0_mae_min": 15.1,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 4,
-        "daily_accepted_episodes": 234,
-        "calibrated_link_periods": 54,
-        "selected_link_periods": 7,
-        "ready_link_periods": 7,
-        "assignment_links": 6
+        "average_accepted_episodes": 45,
+        "daily_accepted_episodes": 1138,
+        "calibrated_link_periods": 170,
+        "selected_link_periods": 207,
+        "ready_link_periods": 207,
+        "assignment_links": 52
       },
       "report_url": "reports/corridors/US29_NB/index.html"
     },
@@ -13396,51 +13396,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.9,
         "episodes_detected": 1768,
-        "episodes_clean": 242,
-        "calibration_rows": 48,
-        "average_weekday_calibration_rows": 5,
-        "figures": 25
+        "episodes_clean": 1225,
+        "calibration_rows": 158,
+        "average_weekday_calibration_rows": 50,
+        "figures": 27
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 16,
-          "duration_r2": 0.999,
-          "speed_r2": 0.361,
-          "duration_mape_pct": 0.9,
-          "minimum_speed_mape_pct": 6.5,
-          "t0_mae_min": 5.8,
+          "n_links": 45,
+          "duration_r2": 0.998,
+          "speed_r2": 0.858,
+          "duration_mape_pct": 1.2,
+          "minimum_speed_mape_pct": 7.1,
+          "t0_mae_min": 6.5,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 16,
-          "duration_r2": 0.994,
-          "speed_r2": 0.444,
-          "duration_mape_pct": 1.7,
-          "minimum_speed_mape_pct": 5.1,
-          "t0_mae_min": 7.9,
+          "n_links": 58,
+          "duration_r2": 0.997,
+          "speed_r2": 0.807,
+          "duration_mape_pct": 1.4,
+          "minimum_speed_mape_pct": 6.3,
+          "t0_mae_min": 10.8,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 16,
-          "duration_r2": 0.994,
-          "speed_r2": 0.373,
-          "duration_mape_pct": 2,
-          "minimum_speed_mape_pct": 10.8,
-          "t0_mae_min": 7.5,
+          "n_links": 55,
+          "duration_r2": 0.998,
+          "speed_r2": 0.483,
+          "duration_mape_pct": 1.4,
+          "minimum_speed_mape_pct": 9.8,
+          "t0_mae_min": 13.4,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 8,
-        "daily_accepted_episodes": 242,
-        "calibrated_link_periods": 48,
-        "selected_link_periods": 15,
-        "ready_link_periods": 15,
-        "assignment_links": 13
+        "average_accepted_episodes": 50,
+        "daily_accepted_episodes": 1225,
+        "calibrated_link_periods": 158,
+        "selected_link_periods": 210,
+        "ready_link_periods": 210,
+        "assignment_links": 56
       },
       "report_url": "reports/corridors/US29_SB/index.html"
     },
@@ -14584,51 +14584,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.0,
         "episodes_detected": 1684,
-        "episodes_clean": 433,
-        "calibration_rows": 71,
-        "average_weekday_calibration_rows": 17,
-        "figures": 26
+        "episodes_clean": 943,
+        "calibration_rows": 115,
+        "average_weekday_calibration_rows": 38,
+        "figures": 25
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 28,
-          "duration_r2": 0.993,
-          "speed_r2": 0.503,
-          "duration_mape_pct": 2,
-          "minimum_speed_mape_pct": 11.4,
-          "t0_mae_min": 6.3,
+          "n_links": 40,
+          "duration_r2": 0.999,
+          "speed_r2": 0.472,
+          "duration_mape_pct": 1.9,
+          "minimum_speed_mape_pct": 12.3,
+          "t0_mae_min": 5.9,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 20,
-          "duration_r2": 0.997,
-          "speed_r2": 0.561,
-          "duration_mape_pct": 1.2,
-          "minimum_speed_mape_pct": 8.3,
-          "t0_mae_min": 5.7,
+          "n_links": 34,
+          "duration_r2": 0.999,
+          "speed_r2": 0.647,
+          "duration_mape_pct": 1.3,
+          "minimum_speed_mape_pct": 7.6,
+          "t0_mae_min": 7.4,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 23,
-          "duration_r2": 0.995,
-          "speed_r2": 0.533,
+          "n_links": 41,
+          "duration_r2": 0.999,
+          "speed_r2": 0.526,
           "duration_mape_pct": 1.3,
-          "minimum_speed_mape_pct": 11.4,
-          "t0_mae_min": 7.5,
+          "minimum_speed_mape_pct": 10.6,
+          "t0_mae_min": 11.5,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 18,
-        "daily_accepted_episodes": 433,
-        "calibrated_link_periods": 71,
-        "selected_link_periods": 43,
-        "ready_link_periods": 43,
-        "assignment_links": 32
+        "average_accepted_episodes": 38,
+        "daily_accepted_episodes": 943,
+        "calibrated_link_periods": 115,
+        "selected_link_periods": 198,
+        "ready_link_periods": 198,
+        "assignment_links": 52
       },
       "report_url": "reports/corridors/US50_EB/index.html"
     },
@@ -15783,51 +15783,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.1,
         "episodes_detected": 1618,
-        "episodes_clean": 374,
-        "calibration_rows": 68,
-        "average_weekday_calibration_rows": 13,
-        "figures": 25
+        "episodes_clean": 787,
+        "calibration_rows": 100,
+        "average_weekday_calibration_rows": 28,
+        "figures": 29
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 18,
-          "duration_r2": 0.998,
-          "speed_r2": 0.699,
-          "duration_mape_pct": 0.8,
-          "minimum_speed_mape_pct": 5.4,
-          "t0_mae_min": 5.8,
+          "n_links": 25,
+          "duration_r2": 1,
+          "speed_r2": 0.807,
+          "duration_mape_pct": 0.9,
+          "minimum_speed_mape_pct": 6.5,
+          "t0_mae_min": 5.3,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 20,
-          "duration_r2": 0.997,
-          "speed_r2": 0.568,
-          "duration_mape_pct": 1.4,
-          "minimum_speed_mape_pct": 5.9,
-          "t0_mae_min": 6.2,
+          "n_links": 31,
+          "duration_r2": 0.999,
+          "speed_r2": 0.759,
+          "duration_mape_pct": 1.3,
+          "minimum_speed_mape_pct": 5.6,
+          "t0_mae_min": 7.9,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 30,
-          "duration_r2": 0.997,
-          "speed_r2": 0.714,
-          "duration_mape_pct": 1.4,
-          "minimum_speed_mape_pct": 8.8,
-          "t0_mae_min": 7.7,
+          "n_links": 44,
+          "duration_r2": 0.999,
+          "speed_r2": 0.622,
+          "duration_mape_pct": 1.7,
+          "minimum_speed_mape_pct": 12.3,
+          "t0_mae_min": 10.7,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 16,
-        "daily_accepted_episodes": 374,
-        "calibrated_link_periods": 68,
-        "selected_link_periods": 33,
-        "ready_link_periods": 33,
-        "assignment_links": 28
+        "average_accepted_episodes": 29,
+        "daily_accepted_episodes": 787,
+        "calibrated_link_periods": 100,
+        "selected_link_periods": 189,
+        "ready_link_periods": 189,
+        "assignment_links": 52
       },
       "report_url": "reports/corridors/US50_WB/index.html"
     },
@@ -16410,51 +16410,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.1,
         "episodes_detected": 456,
-        "episodes_clean": 23,
-        "calibration_rows": 7,
-        "average_weekday_calibration_rows": 0,
-        "figures": 16
+        "episodes_clean": 424,
+        "calibration_rows": 62,
+        "average_weekday_calibration_rows": 16,
+        "figures": 29
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 2,
-          "duration_r2": 1,
-          "speed_r2": 0.848,
-          "duration_mape_pct": 0.2,
-          "minimum_speed_mape_pct": 4.7,
-          "t0_mae_min": 3.2,
-          "gates_pass": "6/7"
+          "n_links": 20,
+          "duration_r2": 0.977,
+          "speed_r2": 0.721,
+          "duration_mape_pct": 1.5,
+          "minimum_speed_mape_pct": 7.2,
+          "t0_mae_min": 7.9,
+          "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 3,
-          "duration_r2": 1,
-          "speed_r2": 0.883,
-          "duration_mape_pct": 0.2,
-          "minimum_speed_mape_pct": 3.5,
-          "t0_mae_min": 6.5,
-          "gates_pass": "6/7"
+          "n_links": 22,
+          "duration_r2": 0.992,
+          "speed_r2": 0.878,
+          "duration_mape_pct": 1.6,
+          "minimum_speed_mape_pct": 6.4,
+          "t0_mae_min": 13.2,
+          "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 2,
-          "duration_r2": 0.999,
-          "speed_r2": 0.039,
-          "duration_mape_pct": 0.7,
-          "minimum_speed_mape_pct": 8.5,
-          "t0_mae_min": 5.6,
-          "gates_pass": "5/7"
+          "n_links": 20,
+          "duration_r2": 0.983,
+          "speed_r2": 0.63,
+          "duration_mape_pct": 1.5,
+          "minimum_speed_mape_pct": 8.1,
+          "t0_mae_min": 16.8,
+          "gates_pass": "7/7"
         }
       ],
       "qvdf": {
-        "coverage_status": "no_accepted_average_episode",
-        "average_accepted_episodes": 0,
-        "daily_accepted_episodes": 23,
-        "calibrated_link_periods": 7,
-        "selected_link_periods": 0,
-        "ready_link_periods": 0,
-        "assignment_links": 0
+        "coverage_status": "ready",
+        "average_accepted_episodes": 17,
+        "daily_accepted_episodes": 424,
+        "calibrated_link_periods": 62,
+        "selected_link_periods": 66,
+        "ready_link_periods": 66,
+        "assignment_links": 19
       },
       "report_url": "reports/corridors/VA120_NB/index.html"
     },
@@ -17037,20 +17037,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.0,
         "episodes_detected": 424,
-        "episodes_clean": 2,
-        "calibration_rows": 0,
-        "average_weekday_calibration_rows": 0,
-        "figures": 3
+        "episodes_clean": 347,
+        "calibration_rows": 51,
+        "average_weekday_calibration_rows": 11,
+        "figures": 22
       },
-      "quality": [],
+      "quality": [
+        {
+          "period": "AM",
+          "n_links": 12,
+          "duration_r2": 0.316,
+          "speed_r2": 0.134,
+          "duration_mape_pct": 3,
+          "minimum_speed_mape_pct": 13,
+          "t0_mae_min": 16.1,
+          "gates_pass": "5/7"
+        },
+        {
+          "period": "MD",
+          "n_links": 19,
+          "duration_r2": 0.719,
+          "speed_r2": 0.693,
+          "duration_mape_pct": 2.2,
+          "minimum_speed_mape_pct": 8.9,
+          "t0_mae_min": 18.1,
+          "gates_pass": "7/7"
+        },
+        {
+          "period": "PM",
+          "n_links": 20,
+          "duration_r2": 0.939,
+          "speed_r2": 0.746,
+          "duration_mape_pct": 1.3,
+          "minimum_speed_mape_pct": 8.8,
+          "t0_mae_min": 17,
+          "gates_pass": "7/7"
+        }
+      ],
       "qvdf": {
-        "coverage_status": "no_accepted_average_episode",
-        "average_accepted_episodes": 0,
-        "daily_accepted_episodes": 2,
-        "calibrated_link_periods": 0,
-        "selected_link_periods": 0,
-        "ready_link_periods": 0,
-        "assignment_links": 0
+        "coverage_status": "ready",
+        "average_accepted_episodes": 12,
+        "daily_accepted_episodes": 347,
+        "calibrated_link_periods": 51,
+        "selected_link_periods": 63,
+        "ready_link_periods": 63,
+        "assignment_links": 17
       },
       "report_url": "reports/corridors/VA120_SB/index.html"
     },
@@ -18133,51 +18164,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.0,
         "episodes_detected": 1437,
-        "episodes_clean": 332,
-        "calibration_rows": 64,
-        "average_weekday_calibration_rows": 8,
+        "episodes_clean": 786,
+        "calibration_rows": 105,
+        "average_weekday_calibration_rows": 29,
         "figures": 25
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 27,
-          "duration_r2": 0.994,
-          "speed_r2": 0.501,
-          "duration_mape_pct": 1.7,
-          "minimum_speed_mape_pct": 12.7,
-          "t0_mae_min": 5.4,
+          "n_links": 39,
+          "duration_r2": 0.999,
+          "speed_r2": 0.758,
+          "duration_mape_pct": 1.9,
+          "minimum_speed_mape_pct": 11.4,
+          "t0_mae_min": 5.7,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 15,
-          "duration_r2": 0.997,
-          "speed_r2": 0.788,
-          "duration_mape_pct": 0.8,
-          "minimum_speed_mape_pct": 7.3,
-          "t0_mae_min": 6.4,
+          "n_links": 30,
+          "duration_r2": 0.996,
+          "speed_r2": 0.532,
+          "duration_mape_pct": 1.3,
+          "minimum_speed_mape_pct": 10.3,
+          "t0_mae_min": 8.7,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 22,
-          "duration_r2": 0.999,
-          "speed_r2": 0.826,
-          "duration_mape_pct": 0.7,
-          "minimum_speed_mape_pct": 6.7,
-          "t0_mae_min": 7.6,
+          "n_links": 36,
+          "duration_r2": 0.998,
+          "speed_r2": 0.833,
+          "duration_mape_pct": 1.4,
+          "minimum_speed_mape_pct": 8.7,
+          "t0_mae_min": 12.6,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 10,
-        "daily_accepted_episodes": 332,
-        "calibrated_link_periods": 64,
-        "selected_link_periods": 25,
-        "ready_link_periods": 25,
-        "assignment_links": 19
+        "average_accepted_episodes": 29,
+        "daily_accepted_episodes": 786,
+        "calibrated_link_periods": 105,
+        "selected_link_periods": 129,
+        "ready_link_periods": 129,
+        "assignment_links": 38
       },
       "report_url": "reports/corridors/VA123_NB/index.html"
     },
@@ -19210,51 +19241,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.0,
         "episodes_detected": 1116,
-        "episodes_clean": 210,
-        "calibration_rows": 43,
-        "average_weekday_calibration_rows": 7,
-        "figures": 22
+        "episodes_clean": 642,
+        "calibration_rows": 79,
+        "average_weekday_calibration_rows": 28,
+        "figures": 24
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 11,
-          "duration_r2": 0.997,
-          "speed_r2": 0.031,
-          "duration_mape_pct": 1.3,
-          "minimum_speed_mape_pct": 8.3,
-          "t0_mae_min": 5.3,
-          "gates_pass": "6/7"
+          "n_links": 19,
+          "duration_r2": 0.99,
+          "speed_r2": 0.513,
+          "duration_mape_pct": 1.7,
+          "minimum_speed_mape_pct": 10.8,
+          "t0_mae_min": 6.6,
+          "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 13,
-          "duration_r2": 0.995,
-          "speed_r2": 0.851,
-          "duration_mape_pct": 1.5,
-          "minimum_speed_mape_pct": 8,
-          "t0_mae_min": 6.2,
+          "n_links": 23,
+          "duration_r2": 0.996,
+          "speed_r2": 0.547,
+          "duration_mape_pct": 1.2,
+          "minimum_speed_mape_pct": 10.9,
+          "t0_mae_min": 7.9,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 19,
-          "duration_r2": 0.989,
-          "speed_r2": 0.618,
-          "duration_mape_pct": 2.3,
-          "minimum_speed_mape_pct": 14.3,
-          "t0_mae_min": 8.6,
+          "n_links": 37,
+          "duration_r2": 0.998,
+          "speed_r2": 0.681,
+          "duration_mape_pct": 1.7,
+          "minimum_speed_mape_pct": 11.9,
+          "t0_mae_min": 13.3,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 8,
-        "daily_accepted_episodes": 210,
-        "calibrated_link_periods": 43,
-        "selected_link_periods": 21,
-        "ready_link_periods": 21,
-        "assignment_links": 20
+        "average_accepted_episodes": 28,
+        "daily_accepted_episodes": 642,
+        "calibrated_link_periods": 79,
+        "selected_link_periods": 129,
+        "ready_link_periods": 129,
+        "assignment_links": 38
       },
       "report_url": "reports/corridors/VA123_SB/index.html"
     },
@@ -19960,51 +19991,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.1,
         "episodes_detected": 587,
-        "episodes_clean": 174,
-        "calibration_rows": 30,
-        "average_weekday_calibration_rows": 2,
-        "figures": 28
+        "episodes_clean": 331,
+        "calibration_rows": 41,
+        "average_weekday_calibration_rows": 13,
+        "figures": 29
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 10,
-          "duration_r2": 0.993,
-          "speed_r2": 0.656,
-          "duration_mape_pct": 1.7,
-          "minimum_speed_mape_pct": 8.9,
-          "t0_mae_min": 6.5,
+          "n_links": 13,
+          "duration_r2": 0.999,
+          "speed_r2": 0.635,
+          "duration_mape_pct": 1.6,
+          "minimum_speed_mape_pct": 9.7,
+          "t0_mae_min": 5.5,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 11,
-          "duration_r2": 0.998,
-          "speed_r2": 0.672,
-          "duration_mape_pct": 0.7,
-          "minimum_speed_mape_pct": 5.5,
-          "t0_mae_min": 6.1,
+          "n_links": 16,
+          "duration_r2": 0.999,
+          "speed_r2": 0.855,
+          "duration_mape_pct": 1,
+          "minimum_speed_mape_pct": 6.2,
+          "t0_mae_min": 7.9,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 9,
-          "duration_r2": 0.998,
-          "speed_r2": 0.912,
-          "duration_mape_pct": 0.9,
-          "minimum_speed_mape_pct": 6.5,
-          "t0_mae_min": 7,
+          "n_links": 12,
+          "duration_r2": 0.999,
+          "speed_r2": 0.841,
+          "duration_mape_pct": 1.1,
+          "minimum_speed_mape_pct": 8.1,
+          "t0_mae_min": 12.1,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 7,
-        "daily_accepted_episodes": 174,
-        "calibrated_link_periods": 30,
-        "selected_link_periods": 24,
-        "ready_link_periods": 24,
-        "assignment_links": 18
+        "average_accepted_episodes": 14,
+        "daily_accepted_episodes": 331,
+        "calibrated_link_periods": 41,
+        "selected_link_periods": 81,
+        "ready_link_periods": 81,
+        "assignment_links": 23
       },
       "report_url": "reports/corridors/VA234_NB/index.html"
     },
@@ -20710,51 +20741,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.0,
         "episodes_detected": 624,
-        "episodes_clean": 128,
-        "calibration_rows": 28,
-        "average_weekday_calibration_rows": 3,
-        "figures": 22
+        "episodes_clean": 264,
+        "calibration_rows": 38,
+        "average_weekday_calibration_rows": 7,
+        "figures": 26
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 9,
-          "duration_r2": 0.997,
-          "speed_r2": 0.359,
-          "duration_mape_pct": 1.3,
-          "minimum_speed_mape_pct": 8.8,
-          "t0_mae_min": 5.2,
+          "n_links": 11,
+          "duration_r2": 0.996,
+          "speed_r2": 0.797,
+          "duration_mape_pct": 1.4,
+          "minimum_speed_mape_pct": 7.2,
+          "t0_mae_min": 6.1,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 5,
-          "duration_r2": 0.995,
-          "speed_r2": 0.902,
-          "duration_mape_pct": 1.3,
-          "minimum_speed_mape_pct": 4.1,
-          "t0_mae_min": 7.2,
+          "n_links": 9,
+          "duration_r2": 0.999,
+          "speed_r2": 0.959,
+          "duration_mape_pct": 1.2,
+          "minimum_speed_mape_pct": 4.3,
+          "t0_mae_min": 9.6,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 14,
-          "duration_r2": 0.993,
-          "speed_r2": 0.744,
-          "duration_mape_pct": 2.1,
-          "minimum_speed_mape_pct": 12.8,
-          "t0_mae_min": 7.8,
+          "n_links": 18,
+          "duration_r2": 0.998,
+          "speed_r2": 0.733,
+          "duration_mape_pct": 2.3,
+          "minimum_speed_mape_pct": 14,
+          "t0_mae_min": 13,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 4,
-        "daily_accepted_episodes": 128,
-        "calibrated_link_periods": 28,
-        "selected_link_periods": 7,
-        "ready_link_periods": 7,
-        "assignment_links": 7
+        "average_accepted_episodes": 10,
+        "daily_accepted_episodes": 264,
+        "calibrated_link_periods": 38,
+        "selected_link_periods": 78,
+        "ready_link_periods": 78,
+        "assignment_links": 23
       },
       "report_url": "reports/corridors/VA234_SB/index.html"
     },
@@ -21477,51 +21508,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.9,
         "episodes_detected": 651,
-        "episodes_clean": 108,
-        "calibration_rows": 16,
-        "average_weekday_calibration_rows": 0,
-        "figures": 29
+        "episodes_clean": 513,
+        "calibration_rows": 54,
+        "average_weekday_calibration_rows": 23,
+        "figures": 28
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 5,
-          "duration_r2": 0.998,
-          "speed_r2": 0.216,
-          "duration_mape_pct": 0.6,
-          "minimum_speed_mape_pct": 8.6,
-          "t0_mae_min": 5.2,
-          "gates_pass": "6/7"
+          "n_links": 13,
+          "duration_r2": 0.996,
+          "speed_r2": 0.898,
+          "duration_mape_pct": 1.5,
+          "minimum_speed_mape_pct": 9.7,
+          "t0_mae_min": 7.6,
+          "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 5,
-          "duration_r2": 0.999,
-          "speed_r2": 0.717,
-          "duration_mape_pct": 0.7,
-          "minimum_speed_mape_pct": 5.4,
-          "t0_mae_min": 6.2,
+          "n_links": 18,
+          "duration_r2": 0.998,
+          "speed_r2": 0.452,
+          "duration_mape_pct": 1.4,
+          "minimum_speed_mape_pct": 10.3,
+          "t0_mae_min": 11.1,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 6,
-          "duration_r2": 0.992,
-          "speed_r2": 0.569,
-          "duration_mape_pct": 2.6,
-          "minimum_speed_mape_pct": 8.8,
-          "t0_mae_min": 8.8,
+          "n_links": 23,
+          "duration_r2": 0.997,
+          "speed_r2": 0.802,
+          "duration_mape_pct": 1.6,
+          "minimum_speed_mape_pct": 9.4,
+          "t0_mae_min": 15,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 5,
-        "daily_accepted_episodes": 108,
-        "calibrated_link_periods": 16,
-        "selected_link_periods": 9,
-        "ready_link_periods": 9,
-        "assignment_links": 8
+        "average_accepted_episodes": 24,
+        "daily_accepted_episodes": 513,
+        "calibrated_link_periods": 54,
+        "selected_link_periods": 75,
+        "ready_link_periods": 75,
+        "assignment_links": 20
       },
       "report_url": "reports/corridors/VA236_EB/index.html"
     },
@@ -22244,51 +22275,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.0,
         "episodes_detected": 681,
-        "episodes_clean": 82,
-        "calibration_rows": 18,
-        "average_weekday_calibration_rows": 0,
-        "figures": 24
+        "episodes_clean": 509,
+        "calibration_rows": 63,
+        "average_weekday_calibration_rows": 21,
+        "figures": 29
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 5,
-          "duration_r2": 0.997,
-          "speed_r2": 0.764,
-          "duration_mape_pct": 1,
-          "minimum_speed_mape_pct": 5.2,
-          "t0_mae_min": 6,
+          "n_links": 15,
+          "duration_r2": 0.999,
+          "speed_r2": 0.861,
+          "duration_mape_pct": 1.3,
+          "minimum_speed_mape_pct": 9.4,
+          "t0_mae_min": 5.5,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 7,
-          "duration_r2": 0.999,
-          "speed_r2": 0.092,
-          "duration_mape_pct": 0.7,
-          "minimum_speed_mape_pct": 7.6,
-          "t0_mae_min": 6.3,
-          "gates_pass": "6/7"
+          "n_links": 24,
+          "duration_r2": 0.984,
+          "speed_r2": 0.656,
+          "duration_mape_pct": 2.2,
+          "minimum_speed_mape_pct": 9,
+          "t0_mae_min": 16.3,
+          "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 6,
-          "duration_r2": 0.997,
-          "speed_r2": 0.588,
-          "duration_mape_pct": 1.1,
-          "minimum_speed_mape_pct": 8.1,
-          "t0_mae_min": 7.8,
+          "n_links": 24,
+          "duration_r2": 0.996,
+          "speed_r2": 0.823,
+          "duration_mape_pct": 1.4,
+          "minimum_speed_mape_pct": 9.1,
+          "t0_mae_min": 15.6,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 2,
-        "daily_accepted_episodes": 82,
-        "calibrated_link_periods": 18,
-        "selected_link_periods": 10,
-        "ready_link_periods": 10,
-        "assignment_links": 5
+        "average_accepted_episodes": 22,
+        "daily_accepted_episodes": 509,
+        "calibrated_link_periods": 63,
+        "selected_link_periods": 75,
+        "ready_link_periods": 75,
+        "assignment_links": 22
       },
       "report_url": "reports/corridors/VA236_WB/index.html"
     },
@@ -22601,20 +22632,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.9,
         "episodes_detected": 323,
-        "episodes_clean": 0,
-        "calibration_rows": 0,
-        "average_weekday_calibration_rows": 0,
-        "figures": 3
+        "episodes_clean": 242,
+        "calibration_rows": 32,
+        "average_weekday_calibration_rows": 12,
+        "figures": 27
       },
-      "quality": [],
+      "quality": [
+        {
+          "period": "AM",
+          "n_links": 5,
+          "duration_r2": -0.153,
+          "speed_r2": 0.835,
+          "duration_mape_pct": 1,
+          "minimum_speed_mape_pct": 4.1,
+          "t0_mae_min": 7.4,
+          "gates_pass": "6/7"
+        },
+        {
+          "period": "MD",
+          "n_links": 13,
+          "duration_r2": -1,
+          "speed_r2": 0.599,
+          "duration_mape_pct": 2.1,
+          "minimum_speed_mape_pct": 8.1,
+          "t0_mae_min": 17.9,
+          "gates_pass": "6/7"
+        },
+        {
+          "period": "PM",
+          "n_links": 14,
+          "duration_r2": -1,
+          "speed_r2": 0.742,
+          "duration_mape_pct": 1.4,
+          "minimum_speed_mape_pct": 6.7,
+          "t0_mae_min": 18.1,
+          "gates_pass": "6/7"
+        }
+      ],
       "qvdf": {
-        "coverage_status": "no_accepted_average_episode",
-        "average_accepted_episodes": 0,
-        "daily_accepted_episodes": 0,
-        "calibrated_link_periods": 0,
-        "selected_link_periods": 0,
-        "ready_link_periods": 0,
-        "assignment_links": 0
+        "coverage_status": "ready",
+        "average_accepted_episodes": 12,
+        "daily_accepted_episodes": 242,
+        "calibrated_link_periods": 32,
+        "selected_link_periods": 45,
+        "ready_link_periods": 45,
+        "assignment_links": 12
       },
       "report_url": "reports/corridors/VA237_EB/index.html"
     },
@@ -22697,20 +22759,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.7,
         "episodes_detected": 55,
-        "episodes_clean": 0,
-        "calibration_rows": 0,
+        "episodes_clean": 53,
+        "calibration_rows": 8,
         "average_weekday_calibration_rows": 0,
-        "figures": 3
+        "figures": 21
       },
-      "quality": [],
+      "quality": [
+        {
+          "period": "AM",
+          "n_links": 2,
+          "duration_r2": 0.965,
+          "speed_r2": 0.807,
+          "duration_mape_pct": 1.6,
+          "minimum_speed_mape_pct": 6.4,
+          "t0_mae_min": 8.8,
+          "gates_pass": "6/7"
+        },
+        {
+          "period": "MD",
+          "n_links": 3,
+          "duration_r2": 0.96,
+          "speed_r2": 0.964,
+          "duration_mape_pct": 1.3,
+          "minimum_speed_mape_pct": 3.4,
+          "t0_mae_min": 12.1,
+          "gates_pass": "6/7"
+        },
+        {
+          "period": "PM",
+          "n_links": 3,
+          "duration_r2": 0.969,
+          "speed_r2": 0.964,
+          "duration_mape_pct": 1.6,
+          "minimum_speed_mape_pct": 3.9,
+          "t0_mae_min": 17.2,
+          "gates_pass": "6/7"
+        }
+      ],
       "qvdf": {
-        "coverage_status": "no_accepted_average_episode",
-        "average_accepted_episodes": 0,
-        "daily_accepted_episodes": 0,
-        "calibrated_link_periods": 0,
-        "selected_link_periods": 0,
-        "ready_link_periods": 0,
-        "assignment_links": 0
+        "coverage_status": "ready",
+        "average_accepted_episodes": 2,
+        "daily_accepted_episodes": 53,
+        "calibrated_link_periods": 8,
+        "selected_link_periods": 9,
+        "ready_link_periods": 9,
+        "assignment_links": 3
       },
       "report_url": "reports/corridors/VA237_NB/index.html"
     },
@@ -22793,20 +22886,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.9,
         "episodes_detected": 34,
-        "episodes_clean": 0,
-        "calibration_rows": 0,
+        "episodes_clean": 33,
+        "calibration_rows": 8,
         "average_weekday_calibration_rows": 0,
-        "figures": 3
+        "figures": 20
       },
-      "quality": [],
+      "quality": [
+        {
+          "period": "AM",
+          "n_links": 3,
+          "duration_r2": 0.558,
+          "speed_r2": 0.854,
+          "duration_mape_pct": 5.8,
+          "minimum_speed_mape_pct": 6.7,
+          "t0_mae_min": 19.2,
+          "gates_pass": "6/7"
+        },
+        {
+          "period": "MD",
+          "n_links": 3,
+          "duration_r2": -1,
+          "speed_r2": 0.043,
+          "duration_mape_pct": 9.3,
+          "minimum_speed_mape_pct": 26.6,
+          "t0_mae_min": 83.9,
+          "gates_pass": "4/7"
+        },
+        {
+          "period": "PM",
+          "n_links": 2,
+          "duration_r2": 0.954,
+          "speed_r2": 0.903,
+          "duration_mape_pct": 1.3,
+          "minimum_speed_mape_pct": 5,
+          "t0_mae_min": 17.9,
+          "gates_pass": "6/7"
+        }
+      ],
       "qvdf": {
-        "coverage_status": "no_accepted_average_episode",
-        "average_accepted_episodes": 0,
-        "daily_accepted_episodes": 0,
-        "calibrated_link_periods": 0,
-        "selected_link_periods": 0,
-        "ready_link_periods": 0,
-        "assignment_links": 0
+        "coverage_status": "ready",
+        "average_accepted_episodes": 1,
+        "daily_accepted_episodes": 33,
+        "calibrated_link_periods": 8,
+        "selected_link_periods": 9,
+        "ready_link_periods": 9,
+        "assignment_links": 3
       },
       "report_url": "reports/corridors/VA237_SB/index.html"
     },
@@ -23059,20 +23183,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.9,
         "episodes_detected": 301,
-        "episodes_clean": 0,
-        "calibration_rows": 0,
-        "average_weekday_calibration_rows": 0,
-        "figures": 3
+        "episodes_clean": 269,
+        "calibration_rows": 38,
+        "average_weekday_calibration_rows": 12,
+        "figures": 25
       },
-      "quality": [],
+      "quality": [
+        {
+          "period": "AM",
+          "n_links": 12,
+          "duration_r2": -1,
+          "speed_r2": 0.383,
+          "duration_mape_pct": 1.6,
+          "minimum_speed_mape_pct": 7.7,
+          "t0_mae_min": 9.7,
+          "gates_pass": "6/7"
+        },
+        {
+          "period": "MD",
+          "n_links": 12,
+          "duration_r2": -1,
+          "speed_r2": 0.827,
+          "duration_mape_pct": 1.6,
+          "minimum_speed_mape_pct": 5.7,
+          "t0_mae_min": 14,
+          "gates_pass": "6/7"
+        },
+        {
+          "period": "PM",
+          "n_links": 14,
+          "duration_r2": -1,
+          "speed_r2": 0.762,
+          "duration_mape_pct": 1.2,
+          "minimum_speed_mape_pct": 6,
+          "t0_mae_min": 16.9,
+          "gates_pass": "6/7"
+        }
+      ],
       "qvdf": {
-        "coverage_status": "no_accepted_average_episode",
-        "average_accepted_episodes": 0,
-        "daily_accepted_episodes": 0,
-        "calibrated_link_periods": 0,
-        "selected_link_periods": 0,
-        "ready_link_periods": 0,
-        "assignment_links": 0
+        "coverage_status": "ready",
+        "average_accepted_episodes": 13,
+        "daily_accepted_episodes": 269,
+        "calibrated_link_periods": 38,
+        "selected_link_periods": 42,
+        "ready_link_periods": 42,
+        "assignment_links": 11
       },
       "report_url": "reports/corridors/VA237_WB/index.html"
     },
@@ -23496,51 +23651,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.9,
         "episodes_detected": 455,
-        "episodes_clean": 33,
-        "calibration_rows": 8,
-        "average_weekday_calibration_rows": 0,
-        "figures": 16
+        "episodes_clean": 356,
+        "calibration_rows": 50,
+        "average_weekday_calibration_rows": 14,
+        "figures": 26
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 3,
-          "duration_r2": 1,
-          "speed_r2": 0.582,
-          "duration_mape_pct": 0.1,
-          "minimum_speed_mape_pct": 2.1,
-          "t0_mae_min": 4.3,
-          "gates_pass": "6/7"
+          "n_links": 16,
+          "duration_r2": 0.995,
+          "speed_r2": 0.809,
+          "duration_mape_pct": 1.7,
+          "minimum_speed_mape_pct": 7.6,
+          "t0_mae_min": 9.3,
+          "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 2,
-          "duration_r2": 1,
-          "speed_r2": 0.416,
-          "duration_mape_pct": 0.2,
-          "minimum_speed_mape_pct": 3.1,
-          "t0_mae_min": 6.3,
-          "gates_pass": "6/7"
+          "n_links": 18,
+          "duration_r2": 0.996,
+          "speed_r2": 0.893,
+          "duration_mape_pct": 1.1,
+          "minimum_speed_mape_pct": 5.3,
+          "t0_mae_min": 11.1,
+          "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 3,
-          "duration_r2": 0.999,
-          "speed_r2": 0.393,
-          "duration_mape_pct": 0.5,
-          "minimum_speed_mape_pct": 5.3,
-          "t0_mae_min": 5.5,
-          "gates_pass": "6/7"
+          "n_links": 16,
+          "duration_r2": 0.997,
+          "speed_r2": 0.911,
+          "duration_mape_pct": 1.1,
+          "minimum_speed_mape_pct": 5.5,
+          "t0_mae_min": 14.1,
+          "gates_pass": "7/7"
         }
       ],
       "qvdf": {
-        "coverage_status": "no_accepted_average_episode",
-        "average_accepted_episodes": 0,
-        "daily_accepted_episodes": 33,
-        "calibrated_link_periods": 8,
-        "selected_link_periods": 0,
-        "ready_link_periods": 0,
-        "assignment_links": 0
+        "coverage_status": "ready",
+        "average_accepted_episodes": 14,
+        "daily_accepted_episodes": 356,
+        "calibrated_link_periods": 50,
+        "selected_link_periods": 54,
+        "ready_link_periods": 54,
+        "assignment_links": 16
       },
       "report_url": "reports/corridors/VA244_EB/index.html"
     },
@@ -23965,51 +24120,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.9,
         "episodes_detected": 443,
-        "episodes_clean": 9,
-        "calibration_rows": 5,
-        "average_weekday_calibration_rows": 0,
-        "figures": 16
+        "episodes_clean": 403,
+        "calibration_rows": 48,
+        "average_weekday_calibration_rows": 14,
+        "figures": 25
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 2,
-          "duration_r2": 1,
-          "speed_r2": -0.186,
-          "duration_mape_pct": 0.5,
-          "minimum_speed_mape_pct": 6.6,
-          "t0_mae_min": 8.5,
-          "gates_pass": "5/7"
+          "n_links": 11,
+          "duration_r2": 0.992,
+          "speed_r2": 0.966,
+          "duration_mape_pct": 1.5,
+          "minimum_speed_mape_pct": 5,
+          "t0_mae_min": 6.6,
+          "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 2,
-          "duration_r2": 1,
-          "speed_r2": 0.671,
-          "duration_mape_pct": 0,
-          "minimum_speed_mape_pct": 1.1,
-          "t0_mae_min": 6.5,
-          "gates_pass": "6/7"
+          "n_links": 19,
+          "duration_r2": 0.986,
+          "speed_r2": 0.945,
+          "duration_mape_pct": 1.5,
+          "minimum_speed_mape_pct": 6.7,
+          "t0_mae_min": 13,
+          "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 1,
-          "duration_r2": 0.638,
-          "speed_r2": 0.63,
-          "duration_mape_pct": 3.2,
-          "minimum_speed_mape_pct": 2.4,
-          "t0_mae_min": 10.9,
-          "gates_pass": "6/7"
+          "n_links": 18,
+          "duration_r2": 0.99,
+          "speed_r2": 0.88,
+          "duration_mape_pct": 1.3,
+          "minimum_speed_mape_pct": 7,
+          "t0_mae_min": 16.9,
+          "gates_pass": "7/7"
         }
       ],
       "qvdf": {
-        "coverage_status": "no_accepted_average_episode",
-        "average_accepted_episodes": 0,
-        "daily_accepted_episodes": 9,
-        "calibrated_link_periods": 5,
-        "selected_link_periods": 0,
-        "ready_link_periods": 0,
-        "assignment_links": 0
+        "coverage_status": "ready",
+        "average_accepted_episodes": 16,
+        "daily_accepted_episodes": 403,
+        "calibrated_link_periods": 48,
+        "selected_link_periods": 63,
+        "ready_link_periods": 63,
+        "assignment_links": 18
       },
       "report_url": "reports/corridors/VA244_WB/index.html"
     },
@@ -24583,8 +24738,8 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.9,
         "episodes_detected": 103,
-        "episodes_clean": 46,
-        "calibration_rows": 17,
+        "episodes_clean": 43,
+        "calibration_rows": 16,
         "average_weekday_calibration_rows": 0,
         "figures": 20
       },
@@ -24601,12 +24756,12 @@
         },
         {
           "period": "MD",
-          "n_links": 5,
-          "duration_r2": 0.807,
-          "speed_r2": -0.216,
-          "duration_mape_pct": 8.7,
-          "minimum_speed_mape_pct": 62,
-          "t0_mae_min": 4.9,
+          "n_links": 4,
+          "duration_r2": 0.891,
+          "speed_r2": -0.028,
+          "duration_mape_pct": 7.4,
+          "minimum_speed_mape_pct": 21.9,
+          "t0_mae_min": 5.1,
           "gates_pass": "5/7"
         },
         {
@@ -24623,11 +24778,11 @@
       "qvdf": {
         "coverage_status": "ready",
         "average_accepted_episodes": 1,
-        "daily_accepted_episodes": 46,
-        "calibrated_link_periods": 17,
-        "selected_link_periods": 1,
-        "ready_link_periods": 1,
-        "assignment_links": 1
+        "daily_accepted_episodes": 43,
+        "calibrated_link_periods": 16,
+        "selected_link_periods": 129,
+        "ready_link_periods": 129,
+        "assignment_links": 38
       },
       "report_url": "reports/corridors/VA267_EB/index.html"
     },
@@ -25220,21 +25375,21 @@
         {
           "period": "MD",
           "n_links": 5,
-          "duration_r2": 0.764,
-          "speed_r2": 0.484,
-          "duration_mape_pct": 9.4,
-          "minimum_speed_mape_pct": 43,
-          "t0_mae_min": 3.4,
-          "gates_pass": "6/7"
+          "duration_r2": 0.974,
+          "speed_r2": -0.337,
+          "duration_mape_pct": 11.7,
+          "minimum_speed_mape_pct": 76.8,
+          "t0_mae_min": 3.6,
+          "gates_pass": "5/7"
         },
         {
           "period": "PM",
           "n_links": 4,
-          "duration_r2": 0.884,
-          "speed_r2": 0.813,
+          "duration_r2": 0.873,
+          "speed_r2": 0.779,
           "duration_mape_pct": 5.9,
-          "minimum_speed_mape_pct": 12.2,
-          "t0_mae_min": 7.9,
+          "minimum_speed_mape_pct": 11.1,
+          "t0_mae_min": 8.1,
           "gates_pass": "6/7"
         }
       ],
@@ -25243,9 +25398,9 @@
         "average_accepted_episodes": 3,
         "daily_accepted_episodes": 59,
         "calibrated_link_periods": 11,
-        "selected_link_periods": 1,
-        "ready_link_periods": 1,
-        "assignment_links": 1
+        "selected_link_periods": 129,
+        "ready_link_periods": 129,
+        "assignment_links": 38
       },
       "report_url": "reports/corridors/VA267_WB/index.html"
     },
@@ -25839,51 +25994,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.0,
         "episodes_detected": 1287,
-        "episodes_clean": 301,
-        "calibration_rows": 66,
-        "average_weekday_calibration_rows": 5,
-        "figures": 25
+        "episodes_clean": 448,
+        "calibration_rows": 75,
+        "average_weekday_calibration_rows": 16,
+        "figures": 26
       },
       "quality": [
         {
           "period": "AM",
           "n_links": 25,
-          "duration_r2": 0.994,
-          "speed_r2": 0.703,
-          "duration_mape_pct": 1.6,
-          "minimum_speed_mape_pct": 7.5,
-          "t0_mae_min": 6.1,
+          "duration_r2": 0.998,
+          "speed_r2": 0.753,
+          "duration_mape_pct": 1.9,
+          "minimum_speed_mape_pct": 8.7,
+          "t0_mae_min": 5.8,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 19,
+          "n_links": 25,
           "duration_r2": 0.998,
-          "speed_r2": 0.428,
-          "duration_mape_pct": 1,
-          "minimum_speed_mape_pct": 7.9,
-          "t0_mae_min": 5.9,
+          "speed_r2": 0.408,
+          "duration_mape_pct": 1.9,
+          "minimum_speed_mape_pct": 18.1,
+          "t0_mae_min": 6.7,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 22,
-          "duration_r2": 0.997,
-          "speed_r2": 0.386,
-          "duration_mape_pct": 1.4,
-          "minimum_speed_mape_pct": 10.7,
-          "t0_mae_min": 6.1,
+          "n_links": 25,
+          "duration_r2": 0.998,
+          "speed_r2": 0.559,
+          "duration_mape_pct": 2,
+          "minimum_speed_mape_pct": 12.7,
+          "t0_mae_min": 7.8,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 8,
-        "daily_accepted_episodes": 301,
-        "calibrated_link_periods": 66,
-        "selected_link_periods": 11,
-        "ready_link_periods": 10,
-        "assignment_links": 11
+        "average_accepted_episodes": 18,
+        "daily_accepted_episodes": 448,
+        "calibrated_link_periods": 75,
+        "selected_link_periods": 174,
+        "ready_link_periods": 174,
+        "assignment_links": 42
       },
       "report_url": "reports/corridors/VA286_NB/index.html"
     },
@@ -26498,51 +26653,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.1,
         "episodes_detected": 1224,
-        "episodes_clean": 339,
-        "calibration_rows": 60,
-        "average_weekday_calibration_rows": 17,
-        "figures": 26
+        "episodes_clean": 483,
+        "calibration_rows": 63,
+        "average_weekday_calibration_rows": 20,
+        "figures": 28
       },
       "quality": [
         {
           "period": "AM",
           "n_links": 18,
-          "duration_r2": 0.998,
-          "speed_r2": 0.476,
-          "duration_mape_pct": 0.9,
-          "minimum_speed_mape_pct": 5.9,
+          "duration_r2": 0.997,
+          "speed_r2": 0.085,
+          "duration_mape_pct": 1.4,
+          "minimum_speed_mape_pct": 12.8,
           "t0_mae_min": 5.3,
-          "gates_pass": "7/7"
+          "gates_pass": "6/7"
         },
         {
           "period": "MD",
-          "n_links": 19,
-          "duration_r2": 0.993,
-          "speed_r2": 0.39,
+          "n_links": 20,
+          "duration_r2": 0.998,
+          "speed_r2": 0.72,
           "duration_mape_pct": 1.8,
-          "minimum_speed_mape_pct": 8.9,
-          "t0_mae_min": 5.9,
+          "minimum_speed_mape_pct": 8.5,
+          "t0_mae_min": 6.1,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 23,
-          "duration_r2": 0.993,
-          "speed_r2": 0.631,
-          "duration_mape_pct": 1.6,
-          "minimum_speed_mape_pct": 9.4,
-          "t0_mae_min": 7.9,
+          "n_links": 25,
+          "duration_r2": 0.996,
+          "speed_r2": 0.617,
+          "duration_mape_pct": 2.2,
+          "minimum_speed_mape_pct": 13.5,
+          "t0_mae_min": 9.2,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 18,
-        "daily_accepted_episodes": 339,
-        "calibrated_link_periods": 60,
-        "selected_link_periods": 20,
-        "ready_link_periods": 20,
-        "assignment_links": 15
+        "average_accepted_episodes": 22,
+        "daily_accepted_episodes": 483,
+        "calibrated_link_periods": 63,
+        "selected_link_periods": 168,
+        "ready_link_periods": 168,
+        "assignment_links": 44
       },
       "report_url": "reports/corridors/VA286_SB/index.html"
     },
@@ -27143,10 +27298,10 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.8,
         "episodes_detected": 526,
-        "episodes_clean": 218,
-        "calibration_rows": 34,
+        "episodes_clean": 217,
+        "calibration_rows": 35,
         "average_weekday_calibration_rows": 8,
-        "figures": 23
+        "figures": 26
       },
       "quality": [
         {
@@ -27161,33 +27316,33 @@
         },
         {
           "period": "MD",
-          "n_links": 6,
-          "duration_r2": 0.949,
-          "speed_r2": 0.109,
-          "duration_mape_pct": 6.6,
-          "minimum_speed_mape_pct": 14.5,
-          "t0_mae_min": 9.9,
+          "n_links": 7,
+          "duration_r2": 0.971,
+          "speed_r2": 0.017,
+          "duration_mape_pct": 7,
+          "minimum_speed_mape_pct": 15.5,
+          "t0_mae_min": 13.5,
           "gates_pass": "6/7"
         },
         {
           "period": "PM",
           "n_links": 12,
-          "duration_r2": 0.971,
-          "speed_r2": 0.538,
-          "duration_mape_pct": 3.2,
-          "minimum_speed_mape_pct": 11.7,
+          "duration_r2": 0.972,
+          "speed_r2": 0.604,
+          "duration_mape_pct": 3.1,
+          "minimum_speed_mape_pct": 10.5,
           "t0_mae_min": 6.5,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 8,
-        "daily_accepted_episodes": 218,
-        "calibrated_link_periods": 34,
-        "selected_link_periods": 10,
-        "ready_link_periods": 10,
-        "assignment_links": 10
+        "average_accepted_episodes": 9,
+        "daily_accepted_episodes": 217,
+        "calibrated_link_periods": 35,
+        "selected_link_periods": 117,
+        "ready_link_periods": 114,
+        "assignment_links": 28
       },
       "report_url": "reports/corridors/VA28_NB/index.html"
     },
@@ -27782,8 +27937,8 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.7,
         "episodes_detected": 637,
-        "episodes_clean": 272,
-        "calibration_rows": 39,
+        "episodes_clean": 279,
+        "calibration_rows": 37,
         "average_weekday_calibration_rows": 12,
         "figures": 22
       },
@@ -27810,23 +27965,23 @@
         },
         {
           "period": "PM",
-          "n_links": 23,
-          "duration_r2": 0.978,
-          "speed_r2": 0.5,
+          "n_links": 21,
+          "duration_r2": 0.982,
+          "speed_r2": 0.537,
           "duration_mape_pct": 3.7,
-          "minimum_speed_mape_pct": 17.9,
-          "t0_mae_min": 9.2,
+          "minimum_speed_mape_pct": 17.7,
+          "t0_mae_min": 9.5,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
         "average_accepted_episodes": 13,
-        "daily_accepted_episodes": 272,
-        "calibrated_link_periods": 39,
-        "selected_link_periods": 21,
-        "ready_link_periods": 17,
-        "assignment_links": 17
+        "daily_accepted_episodes": 279,
+        "calibrated_link_periods": 37,
+        "selected_link_periods": 117,
+        "ready_link_periods": 96,
+        "assignment_links": 27
       },
       "report_url": "reports/corridors/VA28_SB/index.html"
     },
@@ -28060,51 +28215,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.0,
         "episodes_detected": 676,
-        "episodes_clean": 205,
-        "calibration_rows": 29,
+        "episodes_clean": 293,
+        "calibration_rows": 36,
         "average_weekday_calibration_rows": 9,
-        "figures": 24
+        "figures": 23
       },
       "quality": [
         {
           "period": "AM",
           "n_links": 9,
-          "duration_r2": 0.997,
-          "speed_r2": 0.198,
-          "duration_mape_pct": 0.9,
-          "minimum_speed_mape_pct": 6.4,
-          "t0_mae_min": 5.9,
+          "duration_r2": 0.994,
+          "speed_r2": -0.02,
+          "duration_mape_pct": 1.4,
+          "minimum_speed_mape_pct": 13.4,
+          "t0_mae_min": 6.1,
           "gates_pass": "6/7"
         },
         {
           "period": "MD",
-          "n_links": 8,
-          "duration_r2": 1,
-          "speed_r2": 0.371,
-          "duration_mape_pct": 0.3,
-          "minimum_speed_mape_pct": 5.3,
-          "t0_mae_min": 5.8,
+          "n_links": 11,
+          "duration_r2": 0.999,
+          "speed_r2": 0.779,
+          "duration_mape_pct": 0.8,
+          "minimum_speed_mape_pct": 4.5,
+          "t0_mae_min": 6.1,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 12,
-          "duration_r2": 0.998,
-          "speed_r2": 0.466,
-          "duration_mape_pct": 0.6,
-          "minimum_speed_mape_pct": 5.6,
-          "t0_mae_min": 6.7,
-          "gates_pass": "7/7"
+          "n_links": 16,
+          "duration_r2": 0.999,
+          "speed_r2": 0.199,
+          "duration_mape_pct": 1.1,
+          "minimum_speed_mape_pct": 9.1,
+          "t0_mae_min": 7.7,
+          "gates_pass": "6/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
         "average_accepted_episodes": 9,
-        "daily_accepted_episodes": 205,
-        "calibrated_link_periods": 29,
-        "selected_link_periods": 10,
-        "ready_link_periods": 10,
-        "assignment_links": 7
+        "daily_accepted_episodes": 293,
+        "calibrated_link_periods": 36,
+        "selected_link_periods": 66,
+        "ready_link_periods": 66,
+        "assignment_links": 15
       },
       "report_url": "reports/corridors/VA294_EB/index.html"
     },
@@ -28338,51 +28493,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.2,
         "episodes_detected": 578,
-        "episodes_clean": 131,
+        "episodes_clean": 168,
         "calibration_rows": 24,
         "average_weekday_calibration_rows": 4,
-        "figures": 23
+        "figures": 22
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 8,
+          "n_links": 7,
           "duration_r2": 1,
-          "speed_r2": 0.579,
+          "speed_r2": 0.656,
           "duration_mape_pct": 0.2,
-          "minimum_speed_mape_pct": 3.7,
+          "minimum_speed_mape_pct": 3.9,
           "t0_mae_min": 5,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 6,
+          "n_links": 7,
           "duration_r2": 0.999,
-          "speed_r2": 0.498,
-          "duration_mape_pct": 0.5,
-          "minimum_speed_mape_pct": 4.2,
-          "t0_mae_min": 7.5,
+          "speed_r2": 0.448,
+          "duration_mape_pct": 0.7,
+          "minimum_speed_mape_pct": 6.9,
+          "t0_mae_min": 8,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
           "n_links": 10,
-          "duration_r2": 0.997,
-          "speed_r2": 0.541,
-          "duration_mape_pct": 1,
-          "minimum_speed_mape_pct": 5.1,
-          "t0_mae_min": 6.8,
+          "duration_r2": 0.999,
+          "speed_r2": 0.525,
+          "duration_mape_pct": 0.9,
+          "minimum_speed_mape_pct": 6.3,
+          "t0_mae_min": 8.4,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 5,
-        "daily_accepted_episodes": 131,
+        "average_accepted_episodes": 4,
+        "daily_accepted_episodes": 168,
         "calibrated_link_periods": 24,
-        "selected_link_periods": 9,
-        "ready_link_periods": 9,
-        "assignment_links": 9
+        "selected_link_periods": 57,
+        "ready_link_periods": 57,
+        "assignment_links": 16
       },
       "report_url": "reports/corridors/VA294_WB/index.html"
     },
@@ -28616,51 +28771,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.9,
         "episodes_detected": 540,
-        "episodes_clean": 76,
-        "calibration_rows": 13,
-        "average_weekday_calibration_rows": 0,
-        "figures": 28
+        "episodes_clean": 385,
+        "calibration_rows": 50,
+        "average_weekday_calibration_rows": 15,
+        "figures": 27
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 5,
+          "n_links": 17,
           "duration_r2": 0.998,
-          "speed_r2": 0.684,
-          "duration_mape_pct": 1,
-          "minimum_speed_mape_pct": 6.2,
-          "t0_mae_min": 6,
+          "speed_r2": 0.555,
+          "duration_mape_pct": 1.6,
+          "minimum_speed_mape_pct": 8.9,
+          "t0_mae_min": 6.2,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 4,
-          "duration_r2": 0.999,
-          "speed_r2": 0.664,
-          "duration_mape_pct": 0.7,
-          "minimum_speed_mape_pct": 5.4,
-          "t0_mae_min": 6,
-          "gates_pass": "6/7"
+          "n_links": 16,
+          "duration_r2": 0.997,
+          "speed_r2": 0.548,
+          "duration_mape_pct": 1.5,
+          "minimum_speed_mape_pct": 10.9,
+          "t0_mae_min": 10.6,
+          "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 4,
-          "duration_r2": 1,
-          "speed_r2": 0.819,
-          "duration_mape_pct": 0.3,
-          "minimum_speed_mape_pct": 4.2,
-          "t0_mae_min": 7.1,
-          "gates_pass": "6/7"
+          "n_links": 17,
+          "duration_r2": 0.997,
+          "speed_r2": 0.798,
+          "duration_mape_pct": 1.2,
+          "minimum_speed_mape_pct": 6.4,
+          "t0_mae_min": 15,
+          "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 3,
-        "daily_accepted_episodes": 76,
-        "calibrated_link_periods": 13,
-        "selected_link_periods": 3,
-        "ready_link_periods": 1,
-        "assignment_links": 1
+        "average_accepted_episodes": 15,
+        "daily_accepted_episodes": 385,
+        "calibrated_link_periods": 50,
+        "selected_link_periods": 63,
+        "ready_link_periods": 57,
+        "assignment_links": 14
       },
       "report_url": "reports/corridors/VA606_EB/index.html"
     },
@@ -28702,7 +28857,7 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.2,
         "episodes_detected": 121,
-        "episodes_clean": 36,
+        "episodes_clean": 35,
         "calibration_rows": 5,
         "average_weekday_calibration_rows": 0,
         "figures": 20
@@ -28732,20 +28887,20 @@
           "period": "PM",
           "n_links": 3,
           "duration_r2": 1,
-          "speed_r2": 0.158,
-          "duration_mape_pct": 0.4,
-          "minimum_speed_mape_pct": 8.3,
-          "t0_mae_min": 6.4,
+          "speed_r2": 0.049,
+          "duration_mape_pct": 0.5,
+          "minimum_speed_mape_pct": 9.8,
+          "t0_mae_min": 6.6,
           "gates_pass": "5/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
         "average_accepted_episodes": 1,
-        "daily_accepted_episodes": 36,
+        "daily_accepted_episodes": 35,
         "calibrated_link_periods": 5,
-        "selected_link_periods": 1,
-        "ready_link_periods": 1,
+        "selected_link_periods": 15,
+        "ready_link_periods": 15,
         "assignment_links": 1
       },
       "report_url": "reports/corridors/VA606_NB/index.html"
@@ -28788,30 +28943,50 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.1,
         "episodes_detected": 114,
-        "episodes_clean": 17,
-        "calibration_rows": 2,
+        "episodes_clean": 55,
+        "calibration_rows": 9,
         "average_weekday_calibration_rows": 0,
-        "figures": 12
+        "figures": 25
       },
       "quality": [
         {
-          "period": "PM",
+          "period": "AM",
           "n_links": 2,
-          "duration_r2": 0.991,
-          "speed_r2": 0.438,
-          "duration_mape_pct": 2,
-          "minimum_speed_mape_pct": 7.7,
-          "t0_mae_min": 8.5,
+          "duration_r2": 0.992,
+          "speed_r2": 0.223,
+          "duration_mape_pct": 0.9,
+          "minimum_speed_mape_pct": 7.9,
+          "t0_mae_min": 3.4,
+          "gates_pass": "5/7"
+        },
+        {
+          "period": "MD",
+          "n_links": 3,
+          "duration_r2": 0.998,
+          "speed_r2": 0.892,
+          "duration_mape_pct": 1.1,
+          "minimum_speed_mape_pct": 3.7,
+          "t0_mae_min": 8.1,
+          "gates_pass": "6/7"
+        },
+        {
+          "period": "PM",
+          "n_links": 4,
+          "duration_r2": 0.999,
+          "speed_r2": 0.829,
+          "duration_mape_pct": 1.7,
+          "minimum_speed_mape_pct": 7.3,
+          "t0_mae_min": 9.2,
           "gates_pass": "6/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 1,
-        "daily_accepted_episodes": 17,
-        "calibrated_link_periods": 2,
-        "selected_link_periods": 1,
-        "ready_link_periods": 1,
+        "average_accepted_episodes": 3,
+        "daily_accepted_episodes": 55,
+        "calibrated_link_periods": 9,
+        "selected_link_periods": 15,
+        "ready_link_periods": 15,
         "assignment_links": 1
       },
       "report_url": "reports/corridors/VA606_SB/index.html"
@@ -29046,51 +29221,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.0,
         "episodes_detected": 519,
-        "episodes_clean": 88,
-        "calibration_rows": 13,
-        "average_weekday_calibration_rows": 0,
-        "figures": 26
+        "episodes_clean": 365,
+        "calibration_rows": 40,
+        "average_weekday_calibration_rows": 13,
+        "figures": 31
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 5,
-          "duration_r2": 0.996,
-          "speed_r2": 0.363,
-          "duration_mape_pct": 0.8,
-          "minimum_speed_mape_pct": 6.3,
-          "t0_mae_min": 6.1,
+          "n_links": 9,
+          "duration_r2": 0.999,
+          "speed_r2": 0.866,
+          "duration_mape_pct": 1.1,
+          "minimum_speed_mape_pct": 5.8,
+          "t0_mae_min": 5.5,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 3,
-          "duration_r2": 1,
-          "speed_r2": 0.401,
-          "duration_mape_pct": 0.4,
-          "minimum_speed_mape_pct": 5.1,
-          "t0_mae_min": 7.5,
-          "gates_pass": "6/7"
+          "n_links": 12,
+          "duration_r2": 0.994,
+          "speed_r2": 0.649,
+          "duration_mape_pct": 1.3,
+          "minimum_speed_mape_pct": 9.7,
+          "t0_mae_min": 10.9,
+          "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 5,
-          "duration_r2": 0.999,
-          "speed_r2": 0.757,
-          "duration_mape_pct": 0.7,
-          "minimum_speed_mape_pct": 5.8,
-          "t0_mae_min": 7.4,
+          "n_links": 19,
+          "duration_r2": 0.998,
+          "speed_r2": 0.837,
+          "duration_mape_pct": 1.1,
+          "minimum_speed_mape_pct": 6.2,
+          "t0_mae_min": 13.8,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 4,
-        "daily_accepted_episodes": 88,
-        "calibrated_link_periods": 13,
-        "selected_link_periods": 5,
-        "ready_link_periods": 3,
-        "assignment_links": 3
+        "average_accepted_episodes": 16,
+        "daily_accepted_episodes": 365,
+        "calibrated_link_periods": 40,
+        "selected_link_periods": 63,
+        "ready_link_periods": 57,
+        "assignment_links": 13
       },
       "report_url": "reports/corridors/VA606_WB/index.html"
     },
@@ -29429,51 +29604,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.9,
         "episodes_detected": 571,
-        "episodes_clean": 135,
-        "calibration_rows": 26,
-        "average_weekday_calibration_rows": 0,
-        "figures": 26
+        "episodes_clean": 350,
+        "calibration_rows": 45,
+        "average_weekday_calibration_rows": 10,
+        "figures": 25
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 10,
-          "duration_r2": 0.992,
-          "speed_r2": 0.39,
-          "duration_mape_pct": 2.4,
-          "minimum_speed_mape_pct": 7,
-          "t0_mae_min": 6,
+          "n_links": 14,
+          "duration_r2": 0.999,
+          "speed_r2": 0.797,
+          "duration_mape_pct": 2.2,
+          "minimum_speed_mape_pct": 5.8,
+          "t0_mae_min": 5.4,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 7,
-          "duration_r2": 0.997,
-          "speed_r2": 0.006,
-          "duration_mape_pct": 0.7,
-          "minimum_speed_mape_pct": 3.9,
-          "t0_mae_min": 7.1,
-          "gates_pass": "6/7"
+          "n_links": 16,
+          "duration_r2": 0.999,
+          "speed_r2": 0.893,
+          "duration_mape_pct": 1.2,
+          "minimum_speed_mape_pct": 5.6,
+          "t0_mae_min": 8.6,
+          "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 9,
-          "duration_r2": 0.99,
-          "speed_r2": 0.387,
-          "duration_mape_pct": 2,
-          "minimum_speed_mape_pct": 10.5,
-          "t0_mae_min": 8.2,
+          "n_links": 15,
+          "duration_r2": 0.997,
+          "speed_r2": 0.396,
+          "duration_mape_pct": 1.9,
+          "minimum_speed_mape_pct": 11.8,
+          "t0_mae_min": 12.2,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 4,
-        "daily_accepted_episodes": 135,
-        "calibrated_link_periods": 26,
-        "selected_link_periods": 9,
-        "ready_link_periods": 8,
-        "assignment_links": 5
+        "average_accepted_episodes": 11,
+        "daily_accepted_episodes": 350,
+        "calibrated_link_periods": 45,
+        "selected_link_periods": 69,
+        "ready_link_periods": 60,
+        "assignment_links": 13
       },
       "report_url": "reports/corridors/VA611_NB/index.html"
     },
@@ -29846,51 +30021,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.0,
         "episodes_detected": 692,
-        "episodes_clean": 187,
-        "calibration_rows": 35,
-        "average_weekday_calibration_rows": 4,
-        "figures": 22
+        "episodes_clean": 391,
+        "calibration_rows": 50,
+        "average_weekday_calibration_rows": 14,
+        "figures": 26
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 12,
-          "duration_r2": 0.998,
-          "speed_r2": 0.429,
-          "duration_mape_pct": 1,
-          "minimum_speed_mape_pct": 5.6,
-          "t0_mae_min": 5.3,
+          "n_links": 17,
+          "duration_r2": 0.999,
+          "speed_r2": 0.917,
+          "duration_mape_pct": 1.2,
+          "minimum_speed_mape_pct": 5.8,
+          "t0_mae_min": 4.7,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 12,
-          "duration_r2": 0.998,
-          "speed_r2": 0.531,
-          "duration_mape_pct": 0.9,
-          "minimum_speed_mape_pct": 4.1,
-          "t0_mae_min": 6.5,
+          "n_links": 16,
+          "duration_r2": 0.997,
+          "speed_r2": 0.882,
+          "duration_mape_pct": 1.3,
+          "minimum_speed_mape_pct": 5.6,
+          "t0_mae_min": 8.1,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 11,
-          "duration_r2": 0.993,
-          "speed_r2": 0.413,
-          "duration_mape_pct": 1.7,
-          "minimum_speed_mape_pct": 5.3,
-          "t0_mae_min": 8.1,
+          "n_links": 17,
+          "duration_r2": 0.997,
+          "speed_r2": 0.859,
+          "duration_mape_pct": 1.8,
+          "minimum_speed_mape_pct": 6.9,
+          "t0_mae_min": 12.1,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 5,
-        "daily_accepted_episodes": 187,
-        "calibrated_link_periods": 35,
-        "selected_link_periods": 15,
-        "ready_link_periods": 13,
-        "assignment_links": 13
+        "average_accepted_episodes": 15,
+        "daily_accepted_episodes": 391,
+        "calibrated_link_periods": 50,
+        "selected_link_periods": 72,
+        "ready_link_periods": 45,
+        "assignment_links": 11
       },
       "report_url": "reports/corridors/VA611_SB/index.html"
     },
@@ -29969,51 +30144,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.8,
         "episodes_detected": 214,
-        "episodes_clean": 40,
-        "calibration_rows": 9,
+        "episodes_clean": 77,
+        "calibration_rows": 13,
         "average_weekday_calibration_rows": 0,
-        "figures": 16
+        "figures": 20
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 3,
+          "n_links": 4,
           "duration_r2": 1,
-          "speed_r2": 0.655,
-          "duration_mape_pct": 0.6,
-          "minimum_speed_mape_pct": 4.5,
+          "speed_r2": 0.333,
+          "duration_mape_pct": 1.3,
+          "minimum_speed_mape_pct": 14.4,
           "t0_mae_min": 7.6,
           "gates_pass": "6/7"
         },
         {
           "period": "MD",
-          "n_links": 2,
+          "n_links": 4,
           "duration_r2": 1,
-          "speed_r2": 0.442,
-          "duration_mape_pct": 0.7,
-          "minimum_speed_mape_pct": 4.3,
-          "t0_mae_min": 5.1,
+          "speed_r2": 0.873,
+          "duration_mape_pct": 1,
+          "minimum_speed_mape_pct": 5.1,
+          "t0_mae_min": 6.3,
           "gates_pass": "6/7"
         },
         {
           "period": "PM",
-          "n_links": 4,
-          "duration_r2": 0.997,
-          "speed_r2": 0.514,
-          "duration_mape_pct": 0.9,
-          "minimum_speed_mape_pct": 8,
-          "t0_mae_min": 5.2,
+          "n_links": 5,
+          "duration_r2": 0.999,
+          "speed_r2": 0.253,
+          "duration_mape_pct": 1.2,
+          "minimum_speed_mape_pct": 16.8,
+          "t0_mae_min": 9.6,
           "gates_pass": "6/7"
         }
       ],
       "qvdf": {
-        "coverage_status": "no_accepted_average_episode",
-        "average_accepted_episodes": 0,
-        "daily_accepted_episodes": 40,
-        "calibrated_link_periods": 9,
-        "selected_link_periods": 0,
-        "ready_link_periods": 0,
-        "assignment_links": 0
+        "coverage_status": "ready",
+        "average_accepted_episodes": 1,
+        "daily_accepted_episodes": 77,
+        "calibrated_link_periods": 13,
+        "selected_link_periods": 21,
+        "ready_link_periods": 18,
+        "assignment_links": 4
       },
       "report_url": "reports/corridors/VA619_EB/index.html"
     },
@@ -30368,51 +30543,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.1,
         "episodes_detected": 289,
-        "episodes_clean": 78,
-        "calibration_rows": 10,
-        "average_weekday_calibration_rows": 0,
-        "figures": 24
+        "episodes_clean": 107,
+        "calibration_rows": 15,
+        "average_weekday_calibration_rows": 3,
+        "figures": 22
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 2,
-          "duration_r2": 1,
-          "speed_r2": 0.536,
-          "duration_mape_pct": 0.1,
-          "minimum_speed_mape_pct": 2.9,
-          "t0_mae_min": 4.4,
+          "n_links": 3,
+          "duration_r2": 0.999,
+          "speed_r2": 1,
+          "duration_mape_pct": 1.5,
+          "minimum_speed_mape_pct": 1.6,
+          "t0_mae_min": 3.2,
           "gates_pass": "6/7"
         },
         {
           "period": "MD",
-          "n_links": 4,
-          "duration_r2": 1,
-          "speed_r2": 0.527,
-          "duration_mape_pct": 0.5,
-          "minimum_speed_mape_pct": 7.3,
-          "t0_mae_min": 6,
-          "gates_pass": "6/7"
+          "n_links": 6,
+          "duration_r2": 0.999,
+          "speed_r2": 0.718,
+          "duration_mape_pct": 0.9,
+          "minimum_speed_mape_pct": 7.4,
+          "t0_mae_min": 6.8,
+          "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 4,
-          "duration_r2": 0.995,
-          "speed_r2": 0.645,
-          "duration_mape_pct": 1.1,
-          "minimum_speed_mape_pct": 5.4,
-          "t0_mae_min": 7.2,
-          "gates_pass": "6/7"
+          "n_links": 6,
+          "duration_r2": 0.998,
+          "speed_r2": 0.537,
+          "duration_mape_pct": 1,
+          "minimum_speed_mape_pct": 6.8,
+          "t0_mae_min": 8,
+          "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 2,
-        "daily_accepted_episodes": 78,
-        "calibrated_link_periods": 10,
-        "selected_link_periods": 2,
-        "ready_link_periods": 2,
-        "assignment_links": 2
+        "average_accepted_episodes": 3,
+        "daily_accepted_episodes": 107,
+        "calibrated_link_periods": 15,
+        "selected_link_periods": 39,
+        "ready_link_periods": 39,
+        "assignment_links": 10
       },
       "report_url": "reports/corridors/VA619_NB/index.html"
     },
@@ -30777,51 +30952,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.8,
         "episodes_detected": 364,
-        "episodes_clean": 43,
-        "calibration_rows": 11,
-        "average_weekday_calibration_rows": 0,
-        "figures": 21
+        "episodes_clean": 128,
+        "calibration_rows": 22,
+        "average_weekday_calibration_rows": 4,
+        "figures": 30
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 4,
-          "duration_r2": 1,
-          "speed_r2": 0.635,
-          "duration_mape_pct": 0.4,
-          "minimum_speed_mape_pct": 2.3,
-          "t0_mae_min": 4,
-          "gates_pass": "6/7"
+          "n_links": 7,
+          "duration_r2": 0.983,
+          "speed_r2": 0.9,
+          "duration_mape_pct": 2.4,
+          "minimum_speed_mape_pct": 4.5,
+          "t0_mae_min": 7.4,
+          "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 3,
-          "duration_r2": 0.962,
-          "speed_r2": 0.001,
-          "duration_mape_pct": 2.3,
-          "minimum_speed_mape_pct": 3.7,
-          "t0_mae_min": 5.8,
-          "gates_pass": "5/7"
+          "n_links": 7,
+          "duration_r2": 0.994,
+          "speed_r2": 0.984,
+          "duration_mape_pct": 2.1,
+          "minimum_speed_mape_pct": 4.8,
+          "t0_mae_min": 10.7,
+          "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 4,
-          "duration_r2": 0.991,
-          "speed_r2": 0.654,
-          "duration_mape_pct": 1.7,
-          "minimum_speed_mape_pct": 12.3,
-          "t0_mae_min": 8.1,
-          "gates_pass": "6/7"
+          "n_links": 8,
+          "duration_r2": 0.999,
+          "speed_r2": 0.656,
+          "duration_mape_pct": 1.8,
+          "minimum_speed_mape_pct": 9.8,
+          "t0_mae_min": 11,
+          "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 2,
-        "daily_accepted_episodes": 43,
-        "calibrated_link_periods": 11,
-        "selected_link_periods": 2,
-        "ready_link_periods": 2,
-        "assignment_links": 2
+        "average_accepted_episodes": 6,
+        "daily_accepted_episodes": 128,
+        "calibrated_link_periods": 22,
+        "selected_link_periods": 42,
+        "ready_link_periods": 42,
+        "assignment_links": 13
       },
       "report_url": "reports/corridors/VA619_SB/index.html"
     },
@@ -30890,41 +31065,41 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.0,
         "episodes_detected": 112,
-        "episodes_clean": 17,
-        "calibration_rows": 3,
+        "episodes_clean": 46,
+        "calibration_rows": 6,
         "average_weekday_calibration_rows": 0,
-        "figures": 16
+        "figures": 17
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 2,
-          "duration_r2": 0.969,
-          "speed_r2": -0.268,
-          "duration_mape_pct": 3.2,
-          "minimum_speed_mape_pct": 9.7,
-          "t0_mae_min": 6,
-          "gates_pass": "5/7"
+          "n_links": 3,
+          "duration_r2": 0.999,
+          "speed_r2": 0.883,
+          "duration_mape_pct": 2.3,
+          "minimum_speed_mape_pct": 6.7,
+          "t0_mae_min": 8,
+          "gates_pass": "6/7"
         },
         {
           "period": "PM",
-          "n_links": 1,
-          "duration_r2": 0.998,
-          "speed_r2": 0.026,
-          "duration_mape_pct": 0.7,
-          "minimum_speed_mape_pct": 4,
-          "t0_mae_min": 7.1,
-          "gates_pass": "5/7"
+          "n_links": 3,
+          "duration_r2": 0.999,
+          "speed_r2": 0.755,
+          "duration_mape_pct": 1,
+          "minimum_speed_mape_pct": 7.5,
+          "t0_mae_min": 11,
+          "gates_pass": "6/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 1,
-        "daily_accepted_episodes": 17,
-        "calibrated_link_periods": 3,
-        "selected_link_periods": 1,
-        "ready_link_periods": 1,
-        "assignment_links": 1
+        "average_accepted_episodes": 2,
+        "daily_accepted_episodes": 46,
+        "calibrated_link_periods": 6,
+        "selected_link_periods": 21,
+        "ready_link_periods": 18,
+        "assignment_links": 3
       },
       "report_url": "reports/corridors/VA619_WB/index.html"
     },
@@ -31698,51 +31873,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.8,
         "episodes_detected": 1022,
-        "episodes_clean": 282,
-        "calibration_rows": 41,
-        "average_weekday_calibration_rows": 10,
-        "figures": 23
+        "episodes_clean": 503,
+        "calibration_rows": 64,
+        "average_weekday_calibration_rows": 16,
+        "figures": 26
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 18,
-          "duration_r2": 0.992,
-          "speed_r2": 0.466,
-          "duration_mape_pct": 2,
-          "minimum_speed_mape_pct": 9.7,
-          "t0_mae_min": 5.5,
+          "n_links": 23,
+          "duration_r2": 0.99,
+          "speed_r2": 0.376,
+          "duration_mape_pct": 2.4,
+          "minimum_speed_mape_pct": 12.4,
+          "t0_mae_min": 6.9,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 9,
-          "duration_r2": 0.998,
-          "speed_r2": -0.007,
-          "duration_mape_pct": 0.8,
-          "minimum_speed_mape_pct": 4,
-          "t0_mae_min": 6,
-          "gates_pass": "6/7"
+          "n_links": 18,
+          "duration_r2": 0.999,
+          "speed_r2": 0.885,
+          "duration_mape_pct": 1.2,
+          "minimum_speed_mape_pct": 6.9,
+          "t0_mae_min": 8.2,
+          "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 14,
-          "duration_r2": 0.996,
-          "speed_r2": 0.605,
-          "duration_mape_pct": 1.2,
-          "minimum_speed_mape_pct": 7.2,
-          "t0_mae_min": 7.2,
+          "n_links": 23,
+          "duration_r2": 0.999,
+          "speed_r2": 0.806,
+          "duration_mape_pct": 1.3,
+          "minimum_speed_mape_pct": 8.8,
+          "t0_mae_min": 9.6,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 10,
-        "daily_accepted_episodes": 282,
-        "calibrated_link_periods": 41,
-        "selected_link_periods": 49,
-        "ready_link_periods": 49,
-        "assignment_links": 37
+        "average_accepted_episodes": 17,
+        "daily_accepted_episodes": 503,
+        "calibrated_link_periods": 64,
+        "selected_link_periods": 84,
+        "ready_link_periods": 84,
+        "assignment_links": 25
       },
       "report_url": "reports/corridors/VA620_EB/index.html"
     },
@@ -32516,51 +32691,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.9,
         "episodes_detected": 950,
-        "episodes_clean": 326,
-        "calibration_rows": 45,
-        "average_weekday_calibration_rows": 12,
-        "figures": 25
+        "episodes_clean": 450,
+        "calibration_rows": 52,
+        "average_weekday_calibration_rows": 16,
+        "figures": 26
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 13,
-          "duration_r2": 0.992,
-          "speed_r2": 0.488,
-          "duration_mape_pct": 1.8,
-          "minimum_speed_mape_pct": 5.6,
-          "t0_mae_min": 6.2,
+          "n_links": 14,
+          "duration_r2": 0.999,
+          "speed_r2": 0.678,
+          "duration_mape_pct": 1.7,
+          "minimum_speed_mape_pct": 5.8,
+          "t0_mae_min": 5.8,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 14,
-          "duration_r2": 0.998,
-          "speed_r2": 0.452,
-          "duration_mape_pct": 0.9,
-          "minimum_speed_mape_pct": 5.7,
-          "t0_mae_min": 7.1,
+          "n_links": 18,
+          "duration_r2": 0.999,
+          "speed_r2": 0.693,
+          "duration_mape_pct": 1.1,
+          "minimum_speed_mape_pct": 6.9,
+          "t0_mae_min": 8,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 18,
-          "duration_r2": 0.995,
-          "speed_r2": 0.417,
-          "duration_mape_pct": 1.6,
-          "minimum_speed_mape_pct": 8.9,
-          "t0_mae_min": 7.5,
+          "n_links": 20,
+          "duration_r2": 0.997,
+          "speed_r2": 0.393,
+          "duration_mape_pct": 1.7,
+          "minimum_speed_mape_pct": 9.8,
+          "t0_mae_min": 9,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 12,
-        "daily_accepted_episodes": 326,
-        "calibrated_link_periods": 45,
-        "selected_link_periods": 39,
-        "ready_link_periods": 39,
-        "assignment_links": 29
+        "average_accepted_episodes": 16,
+        "daily_accepted_episodes": 450,
+        "calibrated_link_periods": 52,
+        "selected_link_periods": 78,
+        "ready_link_periods": 78,
+        "assignment_links": 23
       },
       "report_url": "reports/corridors/VA620_WB/index.html"
     },
@@ -32900,51 +33075,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.0,
         "episodes_detected": 650,
-        "episodes_clean": 104,
-        "calibration_rows": 24,
-        "average_weekday_calibration_rows": 0,
-        "figures": 22
+        "episodes_clean": 351,
+        "calibration_rows": 52,
+        "average_weekday_calibration_rows": 10,
+        "figures": 26
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 8,
-          "duration_r2": 1,
-          "speed_r2": 0.719,
-          "duration_mape_pct": 0.4,
-          "minimum_speed_mape_pct": 3.9,
-          "t0_mae_min": 4,
+          "n_links": 15,
+          "duration_r2": 0.995,
+          "speed_r2": 0.82,
+          "duration_mape_pct": 1.1,
+          "minimum_speed_mape_pct": 6,
+          "t0_mae_min": 6.9,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 6,
-          "duration_r2": 1,
-          "speed_r2": 0.873,
-          "duration_mape_pct": 0.3,
-          "minimum_speed_mape_pct": 3.1,
-          "t0_mae_min": 7.2,
+          "n_links": 17,
+          "duration_r2": 0.999,
+          "speed_r2": 0.774,
+          "duration_mape_pct": 0.9,
+          "minimum_speed_mape_pct": 5.6,
+          "t0_mae_min": 7.5,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 10,
-          "duration_r2": 0.995,
-          "speed_r2": 0.336,
-          "duration_mape_pct": 1.1,
-          "minimum_speed_mape_pct": 7.3,
-          "t0_mae_min": 7,
+          "n_links": 20,
+          "duration_r2": 0.992,
+          "speed_r2": 0.404,
+          "duration_mape_pct": 1.5,
+          "minimum_speed_mape_pct": 7.4,
+          "t0_mae_min": 14.7,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 2,
-        "daily_accepted_episodes": 104,
-        "calibrated_link_periods": 24,
-        "selected_link_periods": 3,
-        "ready_link_periods": 3,
-        "assignment_links": 2
+        "average_accepted_episodes": 12,
+        "daily_accepted_episodes": 351,
+        "calibrated_link_periods": 52,
+        "selected_link_periods": 69,
+        "ready_link_periods": 66,
+        "assignment_links": 16
       },
       "report_url": "reports/corridors/VA640_EB/index.html"
     },
@@ -33289,51 +33464,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.1,
         "episodes_detected": 694,
-        "episodes_clean": 116,
-        "calibration_rows": 22,
-        "average_weekday_calibration_rows": 0,
-        "figures": 26
+        "episodes_clean": 342,
+        "calibration_rows": 49,
+        "average_weekday_calibration_rows": 13,
+        "figures": 27
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 9,
-          "duration_r2": 0.997,
-          "speed_r2": 0.492,
-          "duration_mape_pct": 1.1,
-          "minimum_speed_mape_pct": 6.9,
-          "t0_mae_min": 6.2,
+          "n_links": 15,
+          "duration_r2": 0.984,
+          "speed_r2": 0.442,
+          "duration_mape_pct": 1.6,
+          "minimum_speed_mape_pct": 9.7,
+          "t0_mae_min": 8.3,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 7,
-          "duration_r2": 1,
-          "speed_r2": 0.814,
-          "duration_mape_pct": 0.5,
-          "minimum_speed_mape_pct": 5.5,
-          "t0_mae_min": 5.6,
+          "n_links": 18,
+          "duration_r2": 0.983,
+          "speed_r2": 0.324,
+          "duration_mape_pct": 1.5,
+          "minimum_speed_mape_pct": 9,
+          "t0_mae_min": 10.6,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 6,
+          "n_links": 16,
           "duration_r2": 0.999,
-          "speed_r2": 0.474,
-          "duration_mape_pct": 0.5,
-          "minimum_speed_mape_pct": 5.8,
-          "t0_mae_min": 6.2,
+          "speed_r2": 0.875,
+          "duration_mape_pct": 0.9,
+          "minimum_speed_mape_pct": 5.6,
+          "t0_mae_min": 11.7,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 4,
-        "daily_accepted_episodes": 116,
-        "calibrated_link_periods": 22,
-        "selected_link_periods": 7,
-        "ready_link_periods": 7,
-        "assignment_links": 7
+        "average_accepted_episodes": 13,
+        "daily_accepted_episodes": 342,
+        "calibrated_link_periods": 49,
+        "selected_link_periods": 69,
+        "ready_link_periods": 54,
+        "assignment_links": 14
       },
       "report_url": "reports/corridors/VA640_WB/index.html"
     },
@@ -33427,51 +33602,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.9,
         "episodes_detected": 361,
-        "episodes_clean": 140,
-        "calibration_rows": 18,
-        "average_weekday_calibration_rows": 3,
-        "figures": 31
+        "episodes_clean": 180,
+        "calibration_rows": 19,
+        "average_weekday_calibration_rows": 4,
+        "figures": 27
       },
       "quality": [
         {
           "period": "AM",
           "n_links": 6,
-          "duration_r2": 0.994,
-          "speed_r2": 0.446,
+          "duration_r2": 0.997,
+          "speed_r2": 0.544,
           "duration_mape_pct": 1.1,
           "minimum_speed_mape_pct": 4.4,
-          "t0_mae_min": 5.8,
+          "t0_mae_min": 5.7,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
           "n_links": 6,
-          "duration_r2": 0.993,
-          "speed_r2": 0.409,
-          "duration_mape_pct": 1.1,
+          "duration_r2": 0.999,
+          "speed_r2": 0.709,
+          "duration_mape_pct": 1.2,
           "minimum_speed_mape_pct": 5.1,
-          "t0_mae_min": 6.3,
+          "t0_mae_min": 6.6,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 6,
-          "duration_r2": 0.998,
-          "speed_r2": 0.588,
+          "n_links": 7,
+          "duration_r2": 0.997,
+          "speed_r2": 0.531,
           "duration_mape_pct": 0.8,
-          "minimum_speed_mape_pct": 4.6,
-          "t0_mae_min": 7.1,
+          "minimum_speed_mape_pct": 5.6,
+          "t0_mae_min": 8.1,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
         "average_accepted_episodes": 6,
-        "daily_accepted_episodes": 140,
-        "calibrated_link_periods": 18,
-        "selected_link_periods": 6,
-        "ready_link_periods": 6,
-        "assignment_links": 3
+        "daily_accepted_episodes": 180,
+        "calibrated_link_periods": 19,
+        "selected_link_periods": 24,
+        "ready_link_periods": 24,
+        "assignment_links": 4
       },
       "report_url": "reports/corridors/VA643_EB/index.html"
     },
@@ -33652,51 +33827,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.9,
         "episodes_detected": 632,
-        "episodes_clean": 122,
-        "calibration_rows": 24,
-        "average_weekday_calibration_rows": 0,
-        "figures": 24
+        "episodes_clean": 270,
+        "calibration_rows": 43,
+        "average_weekday_calibration_rows": 10,
+        "figures": 28
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 8,
+          "n_links": 13,
           "duration_r2": 0.997,
-          "speed_r2": 0.472,
-          "duration_mape_pct": 0.9,
-          "minimum_speed_mape_pct": 6.6,
-          "t0_mae_min": 5.1,
+          "speed_r2": 0.643,
+          "duration_mape_pct": 1.3,
+          "minimum_speed_mape_pct": 8,
+          "t0_mae_min": 6.1,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 9,
-          "duration_r2": 1,
-          "speed_r2": 0.431,
-          "duration_mape_pct": 0.2,
-          "minimum_speed_mape_pct": 4.2,
-          "t0_mae_min": 6.1,
+          "n_links": 15,
+          "duration_r2": 0.998,
+          "speed_r2": 0.934,
+          "duration_mape_pct": 1.2,
+          "minimum_speed_mape_pct": 5.5,
+          "t0_mae_min": 9.9,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 7,
-          "duration_r2": 0.998,
-          "speed_r2": 0.056,
-          "duration_mape_pct": 0.6,
-          "minimum_speed_mape_pct": 4,
-          "t0_mae_min": 6.1,
-          "gates_pass": "6/7"
+          "n_links": 15,
+          "duration_r2": 0.999,
+          "speed_r2": 0.887,
+          "duration_mape_pct": 0.9,
+          "minimum_speed_mape_pct": 5.8,
+          "t0_mae_min": 10.3,
+          "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 3,
-        "daily_accepted_episodes": 122,
-        "calibrated_link_periods": 24,
-        "selected_link_periods": 4,
-        "ready_link_periods": 2,
-        "assignment_links": 2
+        "average_accepted_episodes": 11,
+        "daily_accepted_episodes": 270,
+        "calibrated_link_periods": 43,
+        "selected_link_periods": 54,
+        "ready_link_periods": 36,
+        "assignment_links": 8
       },
       "report_url": "reports/corridors/VA643_NB/index.html"
     },
@@ -33883,51 +34058,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.0,
         "episodes_detected": 646,
-        "episodes_clean": 176,
-        "calibration_rows": 27,
-        "average_weekday_calibration_rows": 3,
-        "figures": 27
+        "episodes_clean": 251,
+        "calibration_rows": 36,
+        "average_weekday_calibration_rows": 8,
+        "figures": 30
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 8,
-          "duration_r2": 1,
-          "speed_r2": 0.492,
-          "duration_mape_pct": 0.2,
-          "minimum_speed_mape_pct": 3.8,
-          "t0_mae_min": 5.1,
-          "gates_pass": "7/7"
-        },
-        {
-          "period": "MD",
           "n_links": 10,
-          "duration_r2": 0.999,
-          "speed_r2": 0.323,
-          "duration_mape_pct": 0.6,
-          "minimum_speed_mape_pct": 4.2,
+          "duration_r2": 0.998,
+          "speed_r2": 0.861,
+          "duration_mape_pct": 0.4,
+          "minimum_speed_mape_pct": 4.1,
           "t0_mae_min": 5.7,
           "gates_pass": "7/7"
         },
         {
+          "period": "MD",
+          "n_links": 13,
+          "duration_r2": 0.999,
+          "speed_r2": 0.94,
+          "duration_mape_pct": 0.9,
+          "minimum_speed_mape_pct": 4.4,
+          "t0_mae_min": 6.7,
+          "gates_pass": "7/7"
+        },
+        {
           "period": "PM",
-          "n_links": 9,
-          "duration_r2": 0.997,
-          "speed_r2": 0.595,
-          "duration_mape_pct": 1.2,
-          "minimum_speed_mape_pct": 4.3,
-          "t0_mae_min": 7.7,
+          "n_links": 13,
+          "duration_r2": 0.999,
+          "speed_r2": 0.857,
+          "duration_mape_pct": 1.1,
+          "minimum_speed_mape_pct": 5.2,
+          "t0_mae_min": 9.6,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 5,
-        "daily_accepted_episodes": 176,
-        "calibrated_link_periods": 27,
-        "selected_link_periods": 7,
-        "ready_link_periods": 4,
-        "assignment_links": 4
+        "average_accepted_episodes": 10,
+        "daily_accepted_episodes": 251,
+        "calibrated_link_periods": 36,
+        "selected_link_periods": 48,
+        "ready_link_periods": 33,
+        "assignment_links": 8
       },
       "report_url": "reports/corridors/VA643_SB/index.html"
     },
@@ -34021,9 +34196,9 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.7,
         "episodes_detected": 357,
-        "episodes_clean": 106,
+        "episodes_clean": 142,
         "calibration_rows": 18,
-        "average_weekday_calibration_rows": 0,
+        "average_weekday_calibration_rows": 3,
         "figures": 28
       },
       "quality": [
@@ -34041,31 +34216,31 @@
           "period": "MD",
           "n_links": 6,
           "duration_r2": 1,
-          "speed_r2": 0.538,
-          "duration_mape_pct": 0.2,
-          "minimum_speed_mape_pct": 4.5,
-          "t0_mae_min": 6,
+          "speed_r2": 0.587,
+          "duration_mape_pct": 0.4,
+          "minimum_speed_mape_pct": 6.3,
+          "t0_mae_min": 5.6,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
           "n_links": 6,
-          "duration_r2": 0.996,
-          "speed_r2": 0.424,
-          "duration_mape_pct": 1,
-          "minimum_speed_mape_pct": 5,
-          "t0_mae_min": 7.2,
-          "gates_pass": "7/7"
+          "duration_r2": 0.998,
+          "speed_r2": 0.244,
+          "duration_mape_pct": 1.2,
+          "minimum_speed_mape_pct": 7.1,
+          "t0_mae_min": 9,
+          "gates_pass": "6/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 3,
-        "daily_accepted_episodes": 106,
+        "average_accepted_episodes": 6,
+        "daily_accepted_episodes": 142,
         "calibrated_link_periods": 18,
-        "selected_link_periods": 3,
-        "ready_link_periods": 3,
-        "assignment_links": 1
+        "selected_link_periods": 24,
+        "ready_link_periods": 24,
+        "assignment_links": 4
       },
       "report_url": "reports/corridors/VA643_WB/index.html"
     },
@@ -34548,51 +34723,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.0,
         "episodes_detected": 977,
-        "episodes_clean": 263,
-        "calibration_rows": 44,
-        "average_weekday_calibration_rows": 7,
-        "figures": 22
+        "episodes_clean": 564,
+        "calibration_rows": 72,
+        "average_weekday_calibration_rows": 20,
+        "figures": 28
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 15,
+          "n_links": 23,
           "duration_r2": 0.997,
-          "speed_r2": 0.585,
-          "duration_mape_pct": 0.9,
-          "minimum_speed_mape_pct": 6.2,
-          "t0_mae_min": 5.2,
+          "speed_r2": 0.329,
+          "duration_mape_pct": 1.1,
+          "minimum_speed_mape_pct": 8.8,
+          "t0_mae_min": 6,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 15,
+          "n_links": 25,
           "duration_r2": 0.998,
-          "speed_r2": 0.486,
-          "duration_mape_pct": 0.7,
-          "minimum_speed_mape_pct": 4.8,
-          "t0_mae_min": 6.5,
+          "speed_r2": 0.797,
+          "duration_mape_pct": 1,
+          "minimum_speed_mape_pct": 6.1,
+          "t0_mae_min": 8.5,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 14,
-          "duration_r2": 0.995,
-          "speed_r2": 0.4,
-          "duration_mape_pct": 1.1,
-          "minimum_speed_mape_pct": 5.5,
-          "t0_mae_min": 7.8,
+          "n_links": 24,
+          "duration_r2": 0.998,
+          "speed_r2": 0.648,
+          "duration_mape_pct": 1.3,
+          "minimum_speed_mape_pct": 9,
+          "t0_mae_min": 12.7,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 7,
-        "daily_accepted_episodes": 263,
-        "calibrated_link_periods": 44,
-        "selected_link_periods": 25,
-        "ready_link_periods": 25,
-        "assignment_links": 13
+        "average_accepted_episodes": 20,
+        "daily_accepted_episodes": 564,
+        "calibrated_link_periods": 72,
+        "selected_link_periods": 81,
+        "ready_link_periods": 81,
+        "assignment_links": 19
       },
       "report_url": "reports/corridors/VA644_EB/index.html"
     },
@@ -35065,51 +35240,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.0,
         "episodes_detected": 743,
-        "episodes_clean": 197,
-        "calibration_rows": 29,
-        "average_weekday_calibration_rows": 6,
-        "figures": 27
+        "episodes_clean": 426,
+        "calibration_rows": 55,
+        "average_weekday_calibration_rows": 15,
+        "figures": 26
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 9,
-          "duration_r2": 0.997,
-          "speed_r2": 0.445,
+          "n_links": 16,
+          "duration_r2": 1,
+          "speed_r2": 0.927,
           "duration_mape_pct": 0.8,
-          "minimum_speed_mape_pct": 3.7,
-          "t0_mae_min": 5.2,
+          "minimum_speed_mape_pct": 4.1,
+          "t0_mae_min": 5.3,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 9,
-          "duration_r2": 0.997,
-          "speed_r2": 0.414,
-          "duration_mape_pct": 0.8,
-          "minimum_speed_mape_pct": 4.7,
-          "t0_mae_min": 4.7,
+          "n_links": 20,
+          "duration_r2": 0.999,
+          "speed_r2": 0.962,
+          "duration_mape_pct": 1,
+          "minimum_speed_mape_pct": 4.9,
+          "t0_mae_min": 8.2,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 11,
+          "n_links": 19,
           "duration_r2": 0.999,
-          "speed_r2": 0.335,
-          "duration_mape_pct": 0.4,
-          "minimum_speed_mape_pct": 5.5,
-          "t0_mae_min": 7.2,
+          "speed_r2": 0.588,
+          "duration_mape_pct": 1,
+          "minimum_speed_mape_pct": 8.4,
+          "t0_mae_min": 10.6,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 7,
-        "daily_accepted_episodes": 197,
-        "calibrated_link_periods": 29,
-        "selected_link_periods": 33,
-        "ready_link_periods": 33,
-        "assignment_links": 23
+        "average_accepted_episodes": 16,
+        "daily_accepted_episodes": 426,
+        "calibrated_link_periods": 55,
+        "selected_link_periods": 72,
+        "ready_link_periods": 72,
+        "assignment_links": 18
       },
       "report_url": "reports/corridors/VA644_WB/index.html"
     },
@@ -35530,51 +35705,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.8,
         "episodes_detected": 944,
-        "episodes_clean": 231,
-        "calibration_rows": 35,
-        "average_weekday_calibration_rows": 4,
-        "figures": 29
+        "episodes_clean": 466,
+        "calibration_rows": 64,
+        "average_weekday_calibration_rows": 16,
+        "figures": 26
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 12,
-          "duration_r2": 0.998,
-          "speed_r2": 0.665,
-          "duration_mape_pct": 0.9,
-          "minimum_speed_mape_pct": 5.7,
-          "t0_mae_min": 5.3,
+          "n_links": 20,
+          "duration_r2": 0.999,
+          "speed_r2": 0.789,
+          "duration_mape_pct": 1.2,
+          "minimum_speed_mape_pct": 7.4,
+          "t0_mae_min": 5.9,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 11,
+          "n_links": 21,
           "duration_r2": 0.998,
-          "speed_r2": 0.567,
-          "duration_mape_pct": 1,
-          "minimum_speed_mape_pct": 5,
-          "t0_mae_min": 5.8,
+          "speed_r2": 0.862,
+          "duration_mape_pct": 1.4,
+          "minimum_speed_mape_pct": 6.1,
+          "t0_mae_min": 8.9,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 12,
-          "duration_r2": 0.995,
-          "speed_r2": 0.551,
+          "n_links": 23,
+          "duration_r2": 0.999,
+          "speed_r2": 0.846,
           "duration_mape_pct": 1.1,
-          "minimum_speed_mape_pct": 7.7,
-          "t0_mae_min": 6.3,
+          "minimum_speed_mape_pct": 6.8,
+          "t0_mae_min": 10.9,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 7,
-        "daily_accepted_episodes": 231,
-        "calibrated_link_periods": 35,
-        "selected_link_periods": 14,
-        "ready_link_periods": 13,
-        "assignment_links": 12
+        "average_accepted_episodes": 16,
+        "daily_accepted_episodes": 466,
+        "calibrated_link_periods": 64,
+        "selected_link_periods": 87,
+        "ready_link_periods": 69,
+        "assignment_links": 18
       },
       "report_url": "reports/corridors/VA645_NB/index.html"
     },
@@ -35975,51 +36150,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.9,
         "episodes_detected": 870,
-        "episodes_clean": 211,
-        "calibration_rows": 30,
-        "average_weekday_calibration_rows": 8,
+        "episodes_clean": 428,
+        "calibration_rows": 58,
+        "average_weekday_calibration_rows": 19,
         "figures": 25
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 10,
-          "duration_r2": 0.993,
-          "speed_r2": 0.709,
-          "duration_mape_pct": 2.2,
-          "minimum_speed_mape_pct": 6.7,
-          "t0_mae_min": 5.9,
+          "n_links": 18,
+          "duration_r2": 0.999,
+          "speed_r2": 0.667,
+          "duration_mape_pct": 2,
+          "minimum_speed_mape_pct": 10.1,
+          "t0_mae_min": 6.7,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 9,
-          "duration_r2": 0.995,
-          "speed_r2": 0.166,
-          "duration_mape_pct": 1.2,
-          "minimum_speed_mape_pct": 5.4,
-          "t0_mae_min": 4.8,
-          "gates_pass": "6/7"
+          "n_links": 18,
+          "duration_r2": 0.999,
+          "speed_r2": 0.733,
+          "duration_mape_pct": 1.5,
+          "minimum_speed_mape_pct": 8.4,
+          "t0_mae_min": 7.3,
+          "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 11,
-          "duration_r2": 0.997,
-          "speed_r2": 0.418,
-          "duration_mape_pct": 1.1,
-          "minimum_speed_mape_pct": 7.5,
-          "t0_mae_min": 6.6,
+          "n_links": 22,
+          "duration_r2": 0.999,
+          "speed_r2": 0.904,
+          "duration_mape_pct": 1.4,
+          "minimum_speed_mape_pct": 7.6,
+          "t0_mae_min": 11.1,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 8,
-        "daily_accepted_episodes": 211,
-        "calibrated_link_periods": 30,
-        "selected_link_periods": 17,
-        "ready_link_periods": 17,
-        "assignment_links": 13
+        "average_accepted_episodes": 19,
+        "daily_accepted_episodes": 428,
+        "calibrated_link_periods": 58,
+        "selected_link_periods": 84,
+        "ready_link_periods": 81,
+        "assignment_links": 19
       },
       "report_url": "reports/corridors/VA645_SB/index.html"
     },
@@ -36113,51 +36288,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.1,
         "episodes_detected": 378,
-        "episodes_clean": 92,
-        "calibration_rows": 20,
-        "average_weekday_calibration_rows": 3,
-        "figures": 24
+        "episodes_clean": 221,
+        "calibration_rows": 32,
+        "average_weekday_calibration_rows": 8,
+        "figures": 26
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 8,
-          "duration_r2": 0.997,
-          "speed_r2": 0.465,
+          "n_links": 11,
+          "duration_r2": 0.999,
+          "speed_r2": 0.884,
           "duration_mape_pct": 1.1,
-          "minimum_speed_mape_pct": 5.5,
-          "t0_mae_min": 6,
+          "minimum_speed_mape_pct": 6,
+          "t0_mae_min": 5.6,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 6,
-          "duration_r2": 0.996,
-          "speed_r2": 0.236,
-          "duration_mape_pct": 1.2,
-          "minimum_speed_mape_pct": 9.6,
-          "t0_mae_min": 4,
-          "gates_pass": "6/7"
+          "n_links": 10,
+          "duration_r2": 0.99,
+          "speed_r2": 0.509,
+          "duration_mape_pct": 1.9,
+          "minimum_speed_mape_pct": 9.8,
+          "t0_mae_min": 9.9,
+          "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 6,
-          "duration_r2": 1,
-          "speed_r2": 0.626,
-          "duration_mape_pct": 0.2,
-          "minimum_speed_mape_pct": 4.1,
-          "t0_mae_min": 6.8,
+          "n_links": 11,
+          "duration_r2": 0.999,
+          "speed_r2": 0.726,
+          "duration_mape_pct": 1,
+          "minimum_speed_mape_pct": 5.5,
+          "t0_mae_min": 9.9,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 4,
-        "daily_accepted_episodes": 92,
-        "calibrated_link_periods": 20,
-        "selected_link_periods": 4,
-        "ready_link_periods": 2,
-        "assignment_links": 2
+        "average_accepted_episodes": 8,
+        "daily_accepted_episodes": 221,
+        "calibrated_link_periods": 32,
+        "selected_link_periods": 54,
+        "ready_link_periods": 48,
+        "assignment_links": 4
       },
       "report_url": "reports/corridors/VA659_NB/index.html"
     },
@@ -36251,51 +36426,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.0,
         "episodes_detected": 287,
-        "episodes_clean": 47,
-        "calibration_rows": 16,
-        "average_weekday_calibration_rows": 0,
-        "figures": 16
+        "episodes_clean": 218,
+        "calibration_rows": 31,
+        "average_weekday_calibration_rows": 7,
+        "figures": 31
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 5,
+          "n_links": 10,
           "duration_r2": 0.996,
-          "speed_r2": 0.611,
-          "duration_mape_pct": 1.2,
-          "minimum_speed_mape_pct": 5.9,
-          "t0_mae_min": 5.5,
+          "speed_r2": 0.473,
+          "duration_mape_pct": 1.6,
+          "minimum_speed_mape_pct": 7.5,
+          "t0_mae_min": 7,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 5,
-          "duration_r2": 0.989,
-          "speed_r2": 0.173,
+          "n_links": 10,
+          "duration_r2": 0.998,
+          "speed_r2": 0.729,
           "duration_mape_pct": 1.6,
-          "minimum_speed_mape_pct": 6.1,
-          "t0_mae_min": 8.7,
-          "gates_pass": "6/7"
+          "minimum_speed_mape_pct": 6.4,
+          "t0_mae_min": 9.8,
+          "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 6,
-          "duration_r2": 0.998,
-          "speed_r2": 0.652,
-          "duration_mape_pct": 0.8,
-          "minimum_speed_mape_pct": 4.3,
-          "t0_mae_min": 6.4,
+          "n_links": 11,
+          "duration_r2": 0.994,
+          "speed_r2": 0.899,
+          "duration_mape_pct": 1.4,
+          "minimum_speed_mape_pct": 6,
+          "t0_mae_min": 14.3,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
-        "coverage_status": "no_accepted_average_episode",
-        "average_accepted_episodes": 0,
-        "daily_accepted_episodes": 47,
-        "calibrated_link_periods": 16,
-        "selected_link_periods": 0,
-        "ready_link_periods": 0,
-        "assignment_links": 0
+        "coverage_status": "ready",
+        "average_accepted_episodes": 9,
+        "daily_accepted_episodes": 218,
+        "calibrated_link_periods": 31,
+        "selected_link_periods": 54,
+        "ready_link_periods": 48,
+        "assignment_links": 4
       },
       "report_url": "reports/corridors/VA659_SB/index.html"
     },
@@ -37890,51 +38065,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 98.9,
         "episodes_detected": 1788,
-        "episodes_clean": 341,
-        "calibration_rows": 73,
-        "average_weekday_calibration_rows": 14,
-        "figures": 22
+        "episodes_clean": 1065,
+        "calibration_rows": 140,
+        "average_weekday_calibration_rows": 46,
+        "figures": 27
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 29,
-          "duration_r2": 0.978,
-          "speed_r2": 0.77,
-          "duration_mape_pct": 3.1,
-          "minimum_speed_mape_pct": 11.2,
-          "t0_mae_min": 6.2,
+          "n_links": 47,
+          "duration_r2": 0.996,
+          "speed_r2": 0.625,
+          "duration_mape_pct": 3.9,
+          "minimum_speed_mape_pct": 18.5,
+          "t0_mae_min": 8.1,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 22,
-          "duration_r2": 0.978,
-          "speed_r2": 0.498,
-          "duration_mape_pct": 4.6,
-          "minimum_speed_mape_pct": 22.5,
-          "t0_mae_min": 8.7,
+          "n_links": 40,
+          "duration_r2": 0.989,
+          "speed_r2": 0.432,
+          "duration_mape_pct": 3,
+          "minimum_speed_mape_pct": 15.4,
+          "t0_mae_min": 13.2,
           "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 22,
-          "duration_r2": 0.994,
-          "speed_r2": 0.507,
-          "duration_mape_pct": 1.5,
-          "minimum_speed_mape_pct": 11.2,
-          "t0_mae_min": 7.7,
+          "n_links": 53,
+          "duration_r2": 0.997,
+          "speed_r2": 0.712,
+          "duration_mape_pct": 1.4,
+          "minimum_speed_mape_pct": 10.5,
+          "t0_mae_min": 14.1,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 14,
-        "daily_accepted_episodes": 341,
-        "calibrated_link_periods": 73,
-        "selected_link_periods": 19,
-        "ready_link_periods": 19,
-        "assignment_links": 15
+        "average_accepted_episodes": 47,
+        "daily_accepted_episodes": 1065,
+        "calibrated_link_periods": 140,
+        "selected_link_periods": 234,
+        "ready_link_periods": 234,
+        "assignment_links": 68
       },
       "report_url": "reports/corridors/VA7_EB/index.html"
     },
@@ -39518,51 +39693,51 @@
       "result_stats": {
         "raw_qc_pass_pct": 99.0,
         "episodes_detected": 1648,
-        "episodes_clean": 276,
-        "calibration_rows": 55,
-        "average_weekday_calibration_rows": 9,
-        "figures": 26
+        "episodes_clean": 986,
+        "calibration_rows": 133,
+        "average_weekday_calibration_rows": 41,
+        "figures": 27
       },
       "quality": [
         {
           "period": "AM",
-          "n_links": 15,
-          "duration_r2": 1,
-          "speed_r2": 0.488,
-          "duration_mape_pct": 0.5,
-          "minimum_speed_mape_pct": 4.7,
-          "t0_mae_min": 4.3,
+          "n_links": 35,
+          "duration_r2": 0.998,
+          "speed_r2": 0.964,
+          "duration_mape_pct": 1.1,
+          "minimum_speed_mape_pct": 5.4,
+          "t0_mae_min": 6.2,
           "gates_pass": "7/7"
         },
         {
           "period": "MD",
-          "n_links": 15,
+          "n_links": 42,
           "duration_r2": 0.998,
-          "speed_r2": 0.183,
-          "duration_mape_pct": 1.2,
-          "minimum_speed_mape_pct": 8.2,
-          "t0_mae_min": 6.2,
-          "gates_pass": "6/7"
+          "speed_r2": 0.768,
+          "duration_mape_pct": 1.3,
+          "minimum_speed_mape_pct": 9.3,
+          "t0_mae_min": 9.4,
+          "gates_pass": "7/7"
         },
         {
           "period": "PM",
-          "n_links": 25,
-          "duration_r2": 0.996,
-          "speed_r2": 0.678,
-          "duration_mape_pct": 1.7,
-          "minimum_speed_mape_pct": 10.9,
-          "t0_mae_min": 7.1,
+          "n_links": 56,
+          "duration_r2": 0.999,
+          "speed_r2": 0.7,
+          "duration_mape_pct": 1.8,
+          "minimum_speed_mape_pct": 13.3,
+          "t0_mae_min": 12.7,
           "gates_pass": "7/7"
         }
       ],
       "qvdf": {
         "coverage_status": "ready",
-        "average_accepted_episodes": 13,
-        "daily_accepted_episodes": 276,
-        "calibrated_link_periods": 55,
-        "selected_link_periods": 24,
-        "ready_link_periods": 24,
-        "assignment_links": 22
+        "average_accepted_episodes": 41,
+        "daily_accepted_episodes": 986,
+        "calibrated_link_periods": 133,
+        "selected_link_periods": 225,
+        "ready_link_periods": 225,
+        "assignment_links": 69
       },
       "report_url": "reports/corridors/VA7_WB/index.html"
     }
@@ -39926,9 +40101,9 @@
     ]
   },
   "sources": {
-    "corridor_results": "outputs/cbi/cbi-2026-07-28-19-31/corridors",
+    "corridor_results": "outputs/cbi/cbi-2026-07-31-10-51/corridors",
     "tmc_mapmatching": "outputs/tmc-mapmatching/tmc-mapmatching-2026-07-29-12-58/nvta_ritis_dtalite_run_07162026_am_pm",
-    "qvdf_reports": "outputs/cbi/cbi-2026-07-28-19-31/dashboards/qvdf-projection",
+    "qvdf_reports": "outputs/cbi/cbi-2026-07-31-10-51/dashboards/integrated-corridor/data",
     "ritis_15min": "input-data/shared/ritis/NOVA-Oct1-31-2025--Avg-at-15min-.csv"
   }
 }

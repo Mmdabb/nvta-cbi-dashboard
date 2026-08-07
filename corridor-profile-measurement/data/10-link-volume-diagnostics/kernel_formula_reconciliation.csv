@@ -1,0 +1,4 @@
+period,link_count,max_abs_D_residual,max_abs_doc_residual,max_abs_plf_residual,review_count
+AM,49329,1.036173,0.001125,0.000588,43889
+MD,49336,3.070064,0.003682,0.000999,45094
+PM,49329,1.064731,0.001110,0.000074,2572

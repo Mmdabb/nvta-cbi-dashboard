@@ -6,7 +6,7 @@ corridor dashboard.
 **Live dashboard:** <https://mmdabb.github.io/nvta-cbi-dashboard/>
 
 The current publication contains 70 corridor reports generated from the
-latest completed CBI run, currently `cbi-2026-07-31-10-51`.
+latest completed CBI run, currently `cbi-2026-08-06-20-39`.
 
 ## Published contents
 

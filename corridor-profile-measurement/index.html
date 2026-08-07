@@ -250,7 +250,7 @@
 
   <section class="section">
     <div class="section-title"><div><div class="title-with-help"><h2>All corridor results</h2><a class="learn-more" href="../learn-more/index.html#corridor-results" target="_blank" rel="noopener">Learn more</a></div><p>Choose a row to update the figures above.</p></div><label>Filter corridors<input id="corridorSearch" type="search" placeholder="I66, VA7, eastbound…"></label></div>
-    <div class="panel table-wrap"><table><thead><tr><th>Corridor</th><th>Status</th><th>Intervals</th><th>TAPlite-CBI MAE</th><th>TAPlite-CBI MAPE</th><th>Cube-CBI MAE</th><th>Cube-CBI MAPE</th><th>TAPlite-Cube MAE</th><th>Observed congestion</th><th>TAPlite congestion</th><th>Cube congestion</th><th>Duration abs. error</th><th>IoU</th></tr></thead><tbody id="resultsBody"></tbody></table></div>
+    <div class="panel table-wrap"><table><thead><tr><th>Corridor</th><th>Status</th><th>Intervals</th><th>TAPlite-CBI MAE</th><th>TAPlite-CBI MAPE</th><th>Observed congestion</th><th>TAPlite congestion</th><th>Duration abs. error</th><th>IoU</th></tr></thead><tbody id="resultsBody"></tbody></table></div>
   </section>
 
   <footer id="provenance"></footer>
@@ -331,9 +331,8 @@
       const rows = DATA.corridors.filter(item => `${item.corridor} ${item.result_status}`.toLowerCase().includes(query));
       document.getElementById("resultsBody").innerHTML = rows.map(item => `<tr data-corridor="${item.corridor}" class="${item.corridor === selectedCorridor ? "active" : ""}">
         <td>${item.corridor.replaceAll("_", " ")}</td><td>${statusText(item.result_status)}</td><td>${fmt(item.matched_interval_count, 0)}</td>
-        <td>${fmt(item.mae_mph, 2)}</td><td>${fmt(item.mape_pct, 1)}%</td><td>${fmt(item.cube_vs_observed_mae_mph, 2)}</td><td>${fmt(item.cube_vs_observed_mape_pct, 1)}%</td>
-        <td>${fmt(item.taplite_vs_cube_mae_mph, 2)}</td><td>${fmt(item.observed_congestion_duration_min, 0)}</td><td>${fmt(item.model_congestion_duration_min, 0)}</td>
-        <td>${fmt(item.cube_vs_observed_model_congestion_duration_min, 0)}</td><td>${fmt(item.congestion_duration_absolute_error_min, 0)}</td><td>${pct(item.congestion_iou_pct)}</td>
+        <td>${fmt(item.mae_mph, 2)}</td><td>${fmt(item.mape_pct, 1)}%</td><td>${fmt(item.observed_congestion_duration_min, 0)}</td><td>${fmt(item.model_congestion_duration_min, 0)}</td>
+        <td>${fmt(item.congestion_duration_absolute_error_min, 0)}</td><td>${pct(item.congestion_iou_pct)}</td>
       </tr>`).join("");
       document.querySelectorAll("#resultsBody tr").forEach(row => row.addEventListener("click", () => renderCorridor(row.dataset.corridor, true)));
     }

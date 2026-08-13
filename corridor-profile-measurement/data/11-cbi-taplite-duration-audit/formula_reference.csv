@@ -1,3 +1,0 @@
-source,demand_equation,doc_equation,duration_equation,notes
-TAPlite Link_QueueVDF,D = V / (lanes * period_hours * PLF),D/C = D / lane_capacity_vphpl,P = Q_cd * (D/C)^Q_n,Visible t0-t3 is clipped to the assignment-period boundary in the latest kernel.
-CBI state_transition,episode_demand = sum(flow_vphpl * interval_hours) over detected t0-t3,D/C = episode_demand / (lane_capacity_vphpl * assignment_period_hours),P = detected inclusive t0-t3 episode duration,CBI does not apply the TAPlite PLF transformation to episode demand.

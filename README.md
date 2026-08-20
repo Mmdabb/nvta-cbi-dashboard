@@ -5,9 +5,11 @@ corridor dashboard.
 
 **Live dashboard:** <https://mmdabb.github.io/nvta-cbi-dashboard/>
 
-The current publication contains 66 general-purpose corridor reports generated
-from the stable canonical CBI run `cbi-2026-08-12-17-32` and TAPlite run
-`nvta-taplite-workflow-2026-08-12-17-54`.
+The current publication contains 225 general-purpose corridor reports generated
+from the observation-coverage run
+`tmc-observation-coverage-2026-08-19-12-31`, its final TAPlite assignment, and
+the corridor measurement run
+`corridor-profile-measurement-2026-08-19-15-17`.
 
 ## Published contents
 

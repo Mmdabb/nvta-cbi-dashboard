@@ -1,6 +1,46 @@
 {
   "status": "PASS",
   "corridors": 225,
+  "resolved_inputs": {
+    "corridor_results_root": "C:\\Users\\mabbas10\\Projects\\CBI-NVTA\\NVTA_internal\\nvta-cbi-package\\outputs\\tmc-observation-coverage\\tmc-observation-coverage-2026-08-19-12-31\\cbi\\actual\\corridors",
+    "mapmatching_product_root": "C:\\Users\\mabbas10\\Projects\\CBI-NVTA\\NVTA_internal\\nvta-cbi-package\\outputs\\tmc-mapmatching\\tmc-mapmatching-2026-08-11-17-43\\nvta_ritis_dtalite_run_07162026_am_pm",
+    "qvdf_report_root": "C:\\Users\\mabbas10\\Projects\\CBI-NVTA\\NVTA_internal\\nvta-cbi-package\\outputs\\dashboard-projection-resume-auto-calibration-v2-2026-08-23-22-07",
+    "corridor_measurement_root": "C:\\Users\\mabbas10\\Projects\\CBI-NVTA\\NVTA_internal\\nvta-cbi-package\\outputs\\corridor-profile-measurement\\corridor-profile-measurement-2026-08-23-21-36",
+    "assignment_root": "C:\\Users\\mabbas10\\Projects\\CBI-NVTA\\NVTA_internal\\nvta-cbi-package\\outputs\\nvta-taplite-workflow\\nvta-taplite-workflow-stable-auto-calibration-v2-pypi-2026-08-23-20-57\\assignment",
+    "ritis_15min_path": "C:\\Users\\mabbas10\\Projects\\CBI-NVTA\\NVTA_internal\\nvta-cbi-package\\input-data\\shared\\ritis\\NOVA-Oct1-31-2025--Avg-at-15min-.csv"
+  },
+  "combined_profile_selection": {
+    "scope": "canonical directed-node-pair TMC winners with modeled speed",
+    "maximum_profiles_per_corridor": 5,
+    "policy_when_more_than_five": "split the road-ordered eligible TMC-link sequence into five contiguous near-equal segments and select the most congested observed TMC from each segment",
+    "policy_when_five_or_fewer": "select every eligible TMC-link",
+    "primary_score": "daily mean max(congestion_threshold_mph - observed_speed_mph, 0) / congestion_threshold_mph",
+    "tie_breakers": [
+      "more observed congested 15-minute intervals",
+      "lower observed daily mean speed",
+      "lower observed daily minimum speed",
+      "lower road order",
+      "TMC code"
+    ],
+    "analytical_effect": "display only; does not change corridor membership, heatmap rows, or performance metrics",
+    "display_overrides_file": "data/dashboard_profile_selection_overrides.csv",
+    "display_overrides": [
+      {
+        "corridor": "I66_EB",
+        "replaced_tmc_code": "110N04184",
+        "replaced_road_order": 26,
+        "replacement_tmc_code": "110N04183",
+        "replacement_road_order": 28,
+        "reason": "canonical TMC in the same spatial segment with lower daily speed-profile MAE"
+      }
+    ]
+  },
+  "presentation_adjustments": {
+    "first_page_removed_quality_columns": [
+      "Duration R²",
+      "Speed R²"
+    ]
+  },
   "staged_reports": 225,
   "projection_data_files": 9,
   "projection_summary_figures": 2,
@@ -11,7 +51,7 @@
     "data_downloads": 8,
     "download_bundle": "corridor-profile-measurement/downloads/corridor-profile-measurement-data.zip",
     "harmonized_reports": 225,
-    "source": "outputs/corridor-profile-measurement/corridor-profile-measurement-2026-08-19-15-17"
+    "source": "outputs/corridor-profile-measurement/corridor-profile-measurement-2026-08-23-21-36"
   },
   "methods_page": "learn-more/index.html",
   "corridors_fully_mapped": 225,
@@ -21,25 +61,8 @@
   "sources": {
     "corridor_results": "outputs/tmc-observation-coverage/tmc-observation-coverage-2026-08-19-12-31/cbi/actual/corridors",
     "tmc_mapmatching": "outputs/tmc-mapmatching/tmc-mapmatching-2026-08-11-17-43/nvta_ritis_dtalite_run_07162026_am_pm",
-    "qvdf_reports": "outputs/tmc-observation-coverage/tmc-observation-coverage-2026-08-19-12-31/cbi/actual/dashboards/integrated-corridor/data",
+    "qvdf_reports": "outputs/integrated-dashboard-stable-auto-calibration-v2-pypi-2026-08-23-22-40/data",
     "ritis_15min": "input-data/shared/ritis/NOVA-Oct1-31-2025--Avg-at-15min-.csv"
   },
-  "entrypoint": "index.html",
-  "projection": {
-    "selected_link_periods": 6219,
-    "ready_link_periods": 6219,
-    "selected_tmc_periods": 6219,
-    "ready_tmc_periods": 6219,
-    "assignment_root": "C:\\Users\\mabbas10\\Projects\\CBI-NVTA\\NVTA_internal\\nvta-cbi-package\\outputs\\tmc-observation-coverage\\tmc-observation-coverage-2026-08-19-12-31\\taplite\\final\\assignment",
-    "model_link_map": "C:\\Users\\mabbas10\\Projects\\CBI-NVTA\\NVTA_internal\\nvta-cbi-package\\outputs\\tmc-observation-coverage\\tmc-observation-coverage-2026-08-19-12-31\\cbi\\actual\\shared\\network-mapping\\canonical_node_pair_tmc.csv",
-    "worker_plan": {
-      "logical_cores": 40,
-      "free_core_equivalents": 36.75,
-      "target_fraction": 0.5,
-      "workers": 20,
-      "task_count": 225,
-      "measurement": "explicit_override_after_windows_GetSystemTimes",
-      "sample_seconds": 0.25
-    }
-  }
+  "entrypoint": "index.html"
 }
